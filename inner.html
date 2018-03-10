@@ -1,106 +1,201 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Глейси</title>
-  </head>
-  <body>
-      <header class="page-header">
-          <nav class="main-menu">
-          <a class="logo">
-            <img src="logo.png" alt="Логотип Глейси">
-          </a>
-                <ul class="menu">
-                    <li><a href="#catalog">Каталог</a></li>
-                    <li><a href="#delivery">Доставка и оплата</a></li>
-                    <li><a href="#company">О компании</a></li>
-                    
-                </ul>
-                <ul class="site-navigation">
-                  <li><a href="#search"></a></li>
-                  <li><a href="#enter">Вход</a></li>
-                  <li><a href="#basket">Корзина</a></li>
-                    
-                </ul>
-                <a >8 812 450-25-25
-                    (с 10 до 20 ежедневно)</a>
-            </nav>
-        </header>
-        <main class="conteiner-2">
-            <ul class="menu-1">
-                <li><a href="#home">Главная</a></li>
-               <li><a href="#catalog">Каталог</a></li>
-               <li>Сливочное</li> 
-            </ul>
-            <h1 class="caption-1">Сливочное мороженое</h1>
-            <section class="list-2">
-                <ul>
-                    <li>Сортировка:<br><!--Форма-->По популярности</li>
-                    <li>Цена: 100 руб. – 500 руб.<br><!--Форма--></li>
-                    <li>Жирность:<br><!--Форма--></li>
-                    <li>Наполнители:<br><!--Форма-->
-                    <ul class="sweet">
-                        <li>шоколадные</li>
-                        <li>ахарные присыпки</li>
-                        <li>фрукты</li>
-                        <li>сиропы</li>
-                        <li>джемы</li>
-                    </ul></li>
-                </ul>
-            </section>
-            <form action="#">
-                <button>Применить</button>
-            </form>
-            <section class="kind of icecream">
-            <ul class="ice">
-                    <li><span>Хит </span><span class="price">310p</span>/<span class="kg">кг </span> <a href="#orange">Сливочное с апельсиновым джемом и цитрусовой струшкой</a></li>
-                    <li><span>Хит </span><span class="price">380р</span>/<span class="kg">кг </span><a href="cofe">Сливочно-кофейное с кусочками шоколада</a></li>
-                    <li><span>Хит </span><span class="price">355р</span>/<span class="kg">кг </span><a href="berry">Сливочно-клубничное с присыпкой из белого шоколада</a></li>
-                   <li><span>Хит </span><span class="price">415р</span>/<span class="kg">кг </span><a href="caramel"> Сливочное крем-брюле с карамельной подлтвкой</a></li>
-                   <li><span>Хит </span><span class="price">325р</span>/<span class="kg">кг </span><a href="#re">Сливочное с брусничным джемом</a></li>
-                   <li><span>Хит </span><span class="price">410р</span>/<span class="kg">кг </span><a href="#ty">Сливочно-черничное с цельными ягодами черники </a></li>
-                   <li><span>Хит </span><span class="price">375р</span>/<span class="kg">кг </span><a href="#tyi">Сливочно-лимонное с карамельной присыпкой</a></li>
-                   <li><span>Хит </span><span class="price">320р</span>/<span class="kg">кг </span><a href="#rt">Сливочное с шоколадной стружкой</a></li>
-                   <li><span>Хит </span><sapn class="price">440р</sapn>/<span class="kg">кг </span><a href="#tyu">Сливочно-ванильное с кусочками шоколада</a></li>
-                   <li><span>Хит </span><span class="price">435р</span>/<span class="kg">кг </span><a href="#rep">Сливочноe с ментоловым сиропом</a></li>
-                   <li><span>Хит </span><span class="price">355р</span>/<span class="kg">кг </span><a href="#byt">Сливочное с кусочками черного шоколада</a></li>
-                   <li><span>Хит </span><span class="price">420р</span>/<span class="kg">кг </span><a href="#vre">Сливочное с мятным сиропом</a></li>
-                  </ul>
-                  </section>
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Глейси</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <nav class="main-menu">
+      <a class="logo">
+        <img src="Logo.png" alt="Логотип Глейси">
+      </a>
+      <ul class="menu">
+        <li>
+          <a href="#catalog">Каталог</a>
+        </li>
+        <li>
+          <a href="#delivery">Доставка и оплата</a>
+        </li>
+        <li>
+          <a href="#company">О компании</a>
+        </li>
+
+      </ul>
+      <ul class="site-navigation">
+        <li>
+          <a href="#search"></a>
+        </li>
+        <li>
+          <a href="#enter">Вход</a>
+        </li>
+        <li>
+          <a href="#basket">Корзина</a>
+        </li>
+
+      </ul>
+      <a>8 812 450-25-25 (с 10 до 20 ежедневно)</a>
+    </nav>
+  </header>
+  <main class="conteiner-2">
+    <ul class="menu-1">
+      <li>
+        <a href="#home">Главная</a>
+      </li>
+      <li>
+        <a href="#catalog">Каталог</a>
+      </li>
+      <li>Сливочное</li>
+    </ul>
+    <h1 class="caption-1">Сливочное мороженое</h1>
+    <section class="list-2">
+      <ul>
+        <li>Сортировка:
+          <br>
+          <!--Форма-->По популярности</li>
+        <li>Цена: 100 руб. – 500 руб.
+          <br>
+          <!--Форма-->
+        </li>
+        <li>Жирность:
+          <br>
+          <!--Форма-->
+        </li>
+        <li>Наполнители:
+          <br>
+          <!--Форма-->
+          <ul class="sweet">
+            <li>шоколадные</li>
+            <li>ахарные присыпки</li>
+            <li>фрукты</li>
+            <li>сиропы</li>
+            <li>джемы</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <form action="#">
+      <button>Применить</button>
+    </form>
+    <section class="kind of icecream">
+      <ul class="ice">
+        <li><img src="1.jpg">
+          <span>Хит </span>
+          <span class="price">310p</span>/
+          <span class="kg">кг </span>
+          <a href="#orange">Сливочное с апельсиновым джемом и цитрусовой струшкой</a>
+        </li>
+        <li><img src="2.jpg">
+          <span>Хит </span>
+          <span class="price">380р</span>/
+          <span class="kg">кг </span>
+          <a href="cofe">Сливочно-кофейное с кусочками шоколада</a>
+        </li>
+        <li><img src="3.jpg">
+          <span>Хит </span>
+          <span class="price">355р</span>/
+          <span class="kg">кг </span>
+          <a href="berry">Сливочно-клубничное с присыпкой из белого шоколада</a>
+        </li>
+        <li><img src="4.jpg">
+          <span>Хит </span>
+          <span class="price">415р</span>/
+          <span class="kg">кг </span>
+          <a href="caramel"> Сливочное крем-брюле с карамельной подлтвкой</a>
+        </li>
+        <li><img src="5.jpg">
+          <span>Хит </span>
+          <span class="price">325р</span>/
+          <span class="kg">кг </span>
+          <a href="#re">Сливочное с брусничным джемом</a>
+        </li>
+        <li><img src="6.jpg">
+          <span>Хит </span>
+          <span class="price">410р</span>/
+          <span class="kg">кг </span>
+          <a href="#ty">Сливочно-черничное с цельными ягодами черники </a>
+        </li>
+        <li><img src="7.jpg">
+          <span>Хит </span>
+          <span class="price">375р</span>/
+          <span class="kg">кг </span>
+          <a href="#tyi">Сливочно-лимонное с карамельной присыпкой</a>
+        </li>
+        <li><img src="8.jpg">
+          <span>Хит </span>
+          <span class="price">320р</span>/
+          <span class="kg">кг </span>
+          <a href="#rt">Сливочное с шоколадной стружкой</a>
+        </li>
+        <li><img src="9.jpg">
+          <span>Хит </span>
+          <sapn class="price">440р</sapn>/
+          <span class="kg">кг </span>
+          <a href="#tyu">Сливочно-ванильное с кусочками шоколада</a>
+        </li>
+        <li><img src="10.jpg">
+          <span>Хит </span>
+          <span class="price">435р</span>/
+          <span class="kg">кг </span>
+          <a href="#rep">Сливочноe с ментоловым сиропом</a>
+        </li>
+        <li><img src="11.jpg">
+          <span>Хит </span>
+          <span class="price">355р</span>/
+          <span class="kg">кг </span>
+          <a href="#byt">Сливочное с кусочками черного шоколада</a>
+        </li>
+        <li><img src="12.jpg">
+          <span>Хит </span>
+          <span class="price">420р</span>/
+          <span class="kg">кг </span>
+          <a href="#vre">Сливочное с мятным сиропом</a>
+        </li>
+      </ul>
+    </section>
 
 
-        </main>
-        <footer class="footer">
-                <div class="footer-social">
-                  <ul>
-                 <li> <a class="social-button" href="twitter">Твитер</a></li>
-                 <li ><a class="social-button" href="instagramm">Инстаграмм</a></li>
-                  <li><a class="social-button" href="facebook">Фэйсбук</a></li>
-                  <li><a class="social-button" href="vk">Вконтакте</a></li>
-                  </ul>
-                </div>
-                <section class="visualy-hidden">Информация о продукте
-                  <ul>
-                    <li>Для поставщиков</li>
-                    <li>О производстве</li>
-                    <li>Наши доккменты</li>
-                    <li>Экологические стандарты</li>
-                  </ul>
-                </section>
-                <section class="logo-1">
-                    <img src="logo-1.png" alt="Логотип HTML">
-                    Сделано в HTML Academy © 2017
-                </section>
-      
-                
-      
-              
-      
-              </footer>
-      
-      
-          
-      
-        </body>
-      </html>
-      
+  </main>
+  <footer class="footer">
+    <div class="footer-social">
+      <ul>
+        <li>
+          <a class="social-button" href="twitter">Твитер</a>
+        </li>
+        <li>
+          <a class="social-button" href="instagramm">Инстаграмм</a>
+        </li>
+        <li>
+          <a class="social-button" href="facebook">Фэйсбук</a>
+        </li>
+        <li>
+          <a class="social-button" href="vk">Вконтакте</a>
+        </li>
+      </ul>
+    </div>
+    <section class="visualy-hidden">Информация о продукте
+      <ul>
+        <li>Для поставщиков</li>
+        <li>О производстве</li>
+        <li>Наши доккменты</li>
+        <li>Экологические стандарты</li>
+      </ul>
+    </section>
+    <section class="logo-1">
+      <img src="logo-htmlacademy-small.png" alt="Логотип HTML"> Сделано в HTML Academy © 2017
+    </section>
+
+
+
+
+
+  </footer>
+
+
+
+
+</body>
+
+</html>
