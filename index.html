@@ -19,11 +19,11 @@
         <li>
           <a href="#catalog">Каталог</a>
           <ul class="menu-list">
-            <li class="something-new">Новинки</li>
-            <li>Сливочное</li>
-            <li class="scrubbings">Щербеты</li>
-            <li>Фруктовый лед</li>
-            <li>Мелорин</li>
+            <li class="something-new" tabindex="0">Новинки</li>
+            <li tabindex="0">Сливочное</li>
+            <li class="scrubbings" tabindex="0">Щербеты</li>
+            <li tabindex="0">Фруктовый лед</li>
+            <li tabindex="0">Мелорин</li>
           </ul>
         </li>
         <li>
@@ -37,10 +37,19 @@
       <ul class="site-navigation">
         <li>
           <img src="svg-gllacy/loupe.svg" alt="поиск">
+          <form action="/echo" method="post">
+          <input type="search" placeholder="Что ищем?"></form>
         </li>
         <li>
           <img src="svg-gllacy/entrance.svg" alt="Вход">
           <a href="#enter">Вход</a>
+          <form action="/echo" method="post">
+            <input type="email" placeholder="Электронная почта" required>
+            <input type="password" placeholder="Пароль" required>
+            <button class="slider-decoration enter">Войти</button>
+            <a href="#">Забыли пароль?</a>
+            <a href="#">Новая регистрация</a>
+            </form>
         </li>
         <li>
           <img src="svg-gllacy/basket.svg" alt="Корзина">
@@ -182,6 +191,13 @@
         <h5>(с 10 до 20 ежедневно)</h5>
         <form action="#.ru" method="POST">
           <button class="adress-decoration">Форма обратной связи</button>
+          <form action="/echo" method="post">
+           <label class="adress-label">Мы обязательно вам ответим!</label> 
+           <input type="text" placeholder="Как вас зовут?">
+           <input type="email" placeholder="Ваша почта для ответа?">
+           <textarea placeholder="Напишите что-нибудь"></textarea>
+           <button class="slider-decoration">Отправить</button>
+          </form>
         </form>
 
       </article>
@@ -212,10 +228,10 @@
       <h5 class="visually-hidden">Информация для покупателей</h5>
       <ul>
         <img src="svg-gllacy/heart.svg" alt="Сердечко">
-        <li>Для поставщиков</li>
-        <li>О производстве</li>
-        <li>Наши документы</li>
-        <li>Экологические стандарты</li>
+        <li><a href="#">Для поставщиков</a></li>
+        <li><a href="#">О производстве</a></li>
+        <li><a href="#">Наши документы</a></li>
+        <li><a href="#">Экологические стандарты</a></li>
       </ul>
     </section>
     <div class="logohtml">

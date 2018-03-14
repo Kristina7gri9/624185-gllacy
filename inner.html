@@ -38,6 +38,25 @@
         <li>
           <img src="svg-gllacy/basket-red.svg" alt="Корзина">
           <a href="#basket">2 товара</a>
+          <form action="/echo" method="post">
+          <table>
+            <tr>
+              <td>Пломбир с апельсиновым джемом</td>
+              <td>1,5 кг х 200 руб.</td>
+              <td>300 руб.</td>
+            </tr>
+            <tr>
+              <td>Клубничный пломбир с присыпкой 
+                из белого шоколада</td>
+                <td>1,5 кг х 300 руб.</td>
+                <td>300 руб.</td>
+                <tr>
+                  <td colspan="3">Итого 750 руб.</td>
+                </tr>
+            </tr>
+          </table>
+          <button class="slider-decoration">Оформить заказ</button>
+          </form>
 
         </li>
 
@@ -68,8 +87,9 @@
             <input type="text" name="sorting">
             <datalist>
               <option value="popular">по популярности</option>
-              <option value="priceplus">по возрастанию цены</option>
-              <option value="priceminus">по убыванию цены</option>
+              <option value="priceplus">сначала дорогие</option>
+              <option value="priceminus">сначала недорогие</option>
+              <option value="far">по жирности</option>
             </datalist>
           </form>
         </li>
@@ -105,19 +125,19 @@
 
         <ul class="sweet">
           <li></li>
-          <img src="svg-gllacy/checkbox-on.svg" alt="галочка"> шоколадные
+          <img src="svg-gllacy/checkbox-on.svg" alt="галочка" tabindex="0"> шоколадные
           </li>
           <li></li>
-          <img src="svg-gllacy/checkbox-on.svg" alt="галочка"> сахарные присыпки</li>
+          <img src="svg-gllacy/checkbox-on.svg" alt="галочка" tabindex="0"> сахарные присыпки</li>
           <li></li>
-          <img src="svg-gllacy/checkbox-off.svg" alt="без галочки"> фрукты
+          <img src="svg-gllacy/checkbox-off.svg" alt="без галочки" tabindex="0"> фрукты
           </li>
           <li></li>
-          <img src="svg-gllacy/checkbox-off.svg" alt="без галочки"> сиропы
+          <img src="svg-gllacy/checkbox-off.svg" alt="без галочки" tabindex="0"> сиропы
 
           </li>
           <li></li>
-          <img src="svg-gllacy/checkbox-off.svg" alt="без галочки"> джемы
+          <img src="svg-gllacy/checkbox-off.svg" alt="без галочки" tabindex="0"> джемы
           </li>
         </ul>
 
@@ -276,10 +296,10 @@
       <h3 class="visually-hidden">Информация о продукте</h3>
       <ul>
         <img src="svg-gllacy/heart.svg" alt="Сердечко">
-        <li>Для поставщиков</li>
-        <li>О производстве</li>
-        <li>Наши документы</li>
-        <li>Экологические стандарты</li>
+        <li><a href="#">Для поставщиков</a></li>
+        <li><a href="#">О производстве</a></li>
+        <li><a href="#">Наши документы</a></li>
+        <li><a href="#">Экологические стандарты</a></li>
       </ul>
     </section>
     <section class="logohtml">
