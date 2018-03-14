@@ -4,12 +4,15 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Глейси</title>
+  <link href="#" rel="stylesheet">
+  <!--Шрифты-->
+  <link href="css/normalise.css" rel="stylesheet">
 </head>
 
 <body>
   <header class="page-header">
-    <nav class="main-menu">
-      <a class="logo">
+    <nav class="page-menu">
+      <a class="page-logogllacy">
         <img src="svg-gllacy/logo.svg" alt="Логотип Глейси">
       </a>
       <ul class="menu">
@@ -34,16 +37,17 @@
         </li>
         <li>
           <img src="svg-gllacy/basket-red.svg" alt="Корзина">
-          2 товара
-          <a href="#basket"></a>
+          <a href="#basket">2 товара</a>
+
         </li>
 
       </ul>
-      <a>8 812 450-25-25 (с 10 до 20 ежедневно)</a>
+      <p>8 812 450-25-25
+        <br> (с 10 до 20 ежедневно)</p>
     </nav>
   </header>
-  <main class="conteiner-2">
-    <ul class="menu-1">
+  <main class="conteiner">
+    <ul class="conteiner-menu">
       <li>
         <a href="#home">Главная</a>
       </li>
@@ -52,134 +56,184 @@
       </li>
       <li>Сливочное</li>
     </ul>
-    <h1 class="caption-1">Сливочное мороженое</h1>
-    <section class="list-2">
+    <h3 class="caption-1">Сливочное мороженое</h3>
+    <!--Добавить ли заголовок в section(characters)?-->
+    <section class="characters">
       <h3 class="visualy-hidden">Характеристики</h3>
       <ul>
-        <li>Сортировка:
-          <br>
-          <!--Форма-->По популярности</li>
-        <li>Цена: 100 руб. – 500 руб.
-          <br>
-          <!--Форма-->
+        <li>
+          <label>Сортировка:</label>
+          <form action="#.ru" method="POST">
+            <!--Форма-->
+            <input type="text" name="sorting">
+            <datalist>
+              <option value="popular">по популярности</option>
+              <option value="priceplus">по возрастанию цены</option>
+              <option value="priceminus">по убыванию цены</option>
+            </datalist>
+          </form>
         </li>
-        <li>Жирность:
-          <br>
-          <!--Форма-->
+        <li>
+          <form action="#.ru" method="POST">
+            <label> Цена: 100 руб. – 500 руб.</label>
+            <input type="range" min="100" max="500">
+
         </li>
-        <li>Наполнители:
-          <br>
-          <!--Форма-->
-          <ul class="sweet">
-            <img src="svg-gllacy/checkbox-on.svg" alt="галочка">
-            <li>шоколадные</li>
-            <img src="svg-gllacy/checkbox-on.svg" alt="галочка">
-            <li>сахарные присыпки</li>
-            <img src="svg-gllacy/checkbox-off.svg" alt="без галочки">
-            <li>фрукты</li>
-            <img src="svg-gllacy/checkbox-off.svg" alt="без галочки">
-            <!--ползунок <div class="half-width">
-                    <label for="dayscount">Количество дней</label>
-                    1 <input type="range" id="dayscount" name="dayscount" min="1" max="14" step="1"> 14
-                </div>-->
-            <li>сиропы</li>
-            <img src="svg-gllacy/checkbox-off.svg" alt="без галочки">
-            <li>джемы</li>
-          </ul>
+        <li>
+          <form action="#.ru" method="POST">
+            <label>Жирность</label>
+            <ul>
+              <li>
+                <input type="checkbox">0%</li>
+              <li>
+                <input type="checkbox" checked>до 10%</li>
+              <li>
+                <input type="checkbox"> до 30% </li>
+              <li>
+                <input type="checkbox"> выше 30%</li>
+            </ul>
+          </form>
+
+
         </li>
+        <li>
+          <form action="#.ru" method="POST">
+            <label>Наполнители:</label>
+        </li>
+
+        <!--Форма-->
+        <ul class="sweet">
+          <li></li>
+          <img src="svg-gllacy/checkbox-on.svg" alt="галочка"> шоколадные
+          </li>
+          <li></li>
+          <img src="svg-gllacy/checkbox-on.svg" alt="галочка"> сахарные присыпки</li>
+          <li></li>
+          <img src="svg-gllacy/checkbox-off.svg" alt="без галочки"> фрукты
+          </li>
+          <li></li>
+          <img src="svg-gllacy/checkbox-off.svg" alt="без галочки"> сиропы
+
+          </li>
+          <li></li>
+          <img src="svg-gllacy/checkbox-off.svg" alt="без галочки"> джемы
+          </li>
+        </ul>
+
       </ul>
+      </form>
     </section>
     <form action="#">
       <button>Применить</button>
     </form>
-    <section class="kind of icecream">
+    <section class="kind-of -icecream">
       <h3 class="visualy-hidden">Виды мороженого</h3>
       <ul class="ice">
         <li>
           <img src="img/1.jpg" alt="1 вид">
           <span>Хит </span>
-          <span class="price">310p</span>/
-          <span class="kg">кг </span>
+          <span class="ice-price">310p</span>/
+          <span class="ice-kg">кг </span>
           <a href="#orange">Сливочное с апельсиновым джемом и цитрусовой струшкой</a>
         </li>
         <li>
           <img src="img/2.jpg" alt="2 вид">
           <span>Хит </span>
-          <span class="price">380р</span>/
+          <span class="ice-price">380р</span>/
           <span class="kg">кг </span>
           <a href="cofe">Сливочно-кофейное с кусочками шоколада</a>
         </li>
         <li>
           <img src="img/3.jpg" alt="3 вид">
-          <span>Хит </span>
-          <span class="price">355р</span>/
-          <span class="kg">кг </span>
+          <img src="svg-gllacy/hit.svg" alt="Хит">
+          <span class="ice-price">355р</span>/
+          <span class="ice-kg">кг </span>
           <a href="berry">Сливочно-клубничное с присыпкой из белого шоколада</a>
         </li>
         <li>
           <img src="img/4.jpg" alt="4 вид">
-          <span>Хит </span>
-          <span class="price">415р</span>/
+          <img src="svg-gllacy/hit.svg" alt="Хит">
+          <span class="ice-price">415р</span>/
           <span class="kg">кг </span>
           <a href="caramel"> Сливочное крем-брюле с карамельной подлтвкой</a>
         </li>
         <li>
           <img src="img/5.jpg" alt="5 вид">
-          <span>Хит </span>
-          <span class="price">325р</span>/
-          <span class="kg">кг </span>
+          <img src="svg-gllacy/hit.svg" alt="Хит">
+          <span class="ice-price">325р</span>/
+          <span class="ice-kg">кг </span>
           <a href="#re">Сливочное с брусничным джемом</a>
         </li>
         <li>
           <img src="img/6.jpg" alt="6 вид">
-          <span>Хит </span>
-          <span class="price">410р</span>/
-          <span class="kg">кг </span>
+          <img src="svg-gllacy/hit.svg" alt="Хит">
+          <span class="ice-price">410р</span>/
+          <span class="ice-kg">кг </span>
           <a href="#ty">Сливочно-черничное с цельными ягодами черники </a>
         </li>
         <li>
           <img src="img/7.jpg" alt="7 вид">
-          <span>Хит </span>
-          <span class="price">375р</span>/
-          <span class="kg">кг </span>
+          <img src="svg-gllacy/hit.svg" alt="Хит">
+          <span class="ice-price">375р</span>/
+          <span class="ice-kg">кг </span>
           <a href="#tyi">Сливочно-лимонное с карамельной присыпкой</a>
         </li>
         <li>
           <img src="img/8.jpg" alt="8 вид">
-          <span>Хит </span>
-          <span class="price">320р</span>/
-          <span class="kg">кг </span>
+          <img src="svg-gllacy/hit.svg" alt="Хит">
+          <span class="ice-price">320р</span>/
+          <span class="ice-kg">кг </span>
           <a href="#rt">Сливочное с шоколадной стружкой</a>
         </li>
         <li>
           <img src="img/9.jpg" alt="9 вид">
-          <span>Хит </span>
-          <span class="price">440р</span>/
-          <span class="kg">кг </span>
-          <a href="#tyu">Сливочно-ванильное с кусочками шоколада</a>
+          <img src="svg-gllacy/hit.svg" alt="Хит">
+          <span class="ice-price">440р</span>/
+          <span class="ice-kg">кг </span>
+          <a href="#">Сливочно-ванильное с кусочками шоколада</a>
         </li>
         <li>
           <img src="img/10.jpg" alt="10 вид">
-          <span>Хит </span>
-          <span class="price">435р</span>/
-          <span class="kg">кг </span>
-          <a href="#rep">Сливочноe с ментоловым сиропом</a>
+          <img src="svg-gllacy/hit.svg" alt="Хит">
+          <span class="ice-price">435р</span>/
+          <span class="ice-kg">кг </span>
+          <a href="#">Сливочноe с ментоловым сиропом</a>
         </li>
         <li>
           <img src="img/11.jpg" alt="11 вид">
-          <span>Хит </span>
-          <span class="price">355р</span>/
-          <span class="kg">кг </span>
-          <a href="#byt">Сливочное с кусочками черного шоколада</a>
+          <img src="svg-gllacy/hit.svg" alt="Хит">
+          <span class="ice-price">355р</span>/
+          <span class="ice-kg">кг </span>
+          <a href="#">Сливочное с кусочками черного шоколада</a>
         </li>
         <li>
           <img src="img/12.jpg" alt="12 вид">
-          <span>Хит </span>
-          <span class="price">420р</span>/
-          <span class="kg">кг </span>
-          <a href="#vre">Сливочное с мятным сиропом</a>
+          <img src="svg-gllacy/hit.svg" alt="Хит">
+          <span class="ice-price">420р</span>/
+          <span class="ice-kg">кг </span>
+          <a href="#">Сливочное с мятным сиропом</a>
         </li>
       </ul>
+    </section>
+    <section class="sleders">
+      <u class="sliders-switch">
+        <li class="slider-radio">
+          <button class="sliders-button">1</button>
+        </li>
+        <li class="slider-radio">
+          <button class="sliders-button">2</button>
+        </li>
+        <li class="slider-radio">
+          <button class="sliders-button">3</button>
+        </li>
+        <li class="slider-radio">
+          <button class="sliders-button">4</button>
+        </li>
+        <li class="slider-radio">
+          <button class="sliders-button">5</button>
+        </li>
+        
+      </u>
     </section>
 
 
@@ -215,7 +269,7 @@
         <li>Экологические стандарты</li>
       </ul>
     </section>
-    <section class="logo-1">
+    <section class="logohtml">
       <h3 class="visualy-hidden">Логотип HTML</h3>
       <img src="svg-gllacy/logo-htmlacademy.svg" alt="Логотип HTML">
       <p>Сделано в HTML Academy © 2017</p>
