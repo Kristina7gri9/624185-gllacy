@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Глейси</title>
-  <link href="#" rel="stylesheet">
-  <!--Шрифты-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  
   <link href="css/normalise.css" rel="stylesheet">
 </head>
 
@@ -20,10 +20,10 @@
           <a href="#catalog">Каталог</a>
           <ul class="menu-list">
             <li class="something-new" tabindex="0">Новинки</li>
-            <li tabindex="0">Сливочное</li>
-            <li class="scrubbings" tabindex="0">Щербеты</li>
-            <li tabindex="0">Фруктовый лед</li>
-            <li tabindex="0">Мелорин</li>
+            <li tabindex="0"><a href="#">Сливочное</a></li>
+            <li class="scrubbings" tabindex="0"><a href="#">Щербеты</a></li>
+            <li tabindex="0"><a href="#">Фруктовый лед</a></li>
+            <li tabindex="0"><a href="#">Мелорин</a></li>
           </ul>
         </li>
         <li>
@@ -35,12 +35,12 @@
 
       </ul>
       <ul class="site-navigation">
-        <li>
+        <li class="site-navigation1">
           <img src="svg-gllacy/loupe.svg" alt="поиск">
           <form action="/echo" method="post">
           <input type="search" placeholder="Что ищем?"></form>
         </li>
-        <li>
+        <li class="site-navigation2">
           <img src="svg-gllacy/entrance.svg" alt="Вход">
           <a href="#enter">Вход</a>
           <form action="/echo" method="post">
@@ -67,11 +67,13 @@
 
 
 
-      <h2 class="slider-title">Крем-брюле и пломбир с малиновым джемом </h2>
+      <h3 class="slider-title">Крем-брюле и пломбир с малиновым джемом </h3>
+      <div class="slider-img">
       <img src="img/icecream-1.jpg" alt="Мороженко 1">
       <img src="img/icecream-2.jpg" alt="Мороженко 2">
       <img src="img/icecream-3.jpg" alt="Мороженко 3">
-      <a class="slider-decoration" href="#two"> Давайте оба!</a>
+    </div>
+      <a class="slider-decoration" > Давайте оба!</a>
       <ul class="slider-switch">
         <li class="slider-radio">
           <button class="slider-button">Первый слайд</button>
@@ -104,34 +106,34 @@
         <li>
           <img src="img/1.jpg" alt="Первый вид">
           <img src="svg-gllacy/hit.svg" alt="Хит">
-          <span class="ice-price">310p</span>/
-          <span class="ice-kg">кг </span>
+          <span class="ice-price">310p</span>
+          <span class="ice-kg">/кг </span>
           <br>
           <a href="#orange">Сливочное с апельсиновым джемом и цитрусовой струшкой</a>
         </li>
         <li>
           <img src="img/2.jpg" alt="Второй вид">
           <img src="svg-gllacy/hit.svg" alt="Хит">
-          <span class="ice-price">380р</span>/
-          <span class="ice-kg">кг </span>
+          <span class="ice-price">380р</span>
+          <span class="ice-kg">/кг </span>
           <br>
           <a href="#cofe">Сливочно-кофейное с кусочками шоколада</a>
         </li>
         <li>
           <img src="img/3.jpg" alt="Третий вид">
           <img src="svg-gllacy/hit.svg" alt="Хит">
-          <span class="ice-price">355р</span>/
-          <span class="ice-kg">кг </span>
+          <span class="ice-price">355р</span>
+          <span class="ice-kg">/кг </span>
           <br>
           <a href="#berry">Сливочно-клубничное с присыпкой из белого шоколада</a>
         </li>
         <li>
           <img src="img/4.jpg" alt="Четвертый вид">
           <img src="svg-gllacy/hit.svg" alt="Хит">
-          <span class="ice-price">415р</span>/
-          <span class="ice-kg">кг </span>
+          <span class="ice-price">415р</span>
+          <span class="ice-kg">/кг </span>
           <br>
-          <a href="#caramel"> Сливочное крем-брюле с карамельной подлтвкой</a>
+          <a href="#caramel"> Сливочное крем-брюле с карамельной подливкой</a>
         </li>
       </ul>
       </section>
@@ -179,7 +181,7 @@
         <img src="svg-gllacy/bg-post.svg" alt="Почтовый-фон">
       </article>
       <div class="map">
-        <img src="img/group.jpg" alt="Карта и мороженое">
+       <img src="img/group.jpg" width="780" height="560" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
 
       </div>
       <article class="adress">

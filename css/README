@@ -1,1 +1,230 @@
+body {
+  margin: 0;
+  padding: 0;
 
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #849d8f;
+  background-position: top center;
+ 
+}
+a {
+  text-decoration: none;
+}
+.page-menu {
+    font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+
+  background-color: #849d8f;
+}
+.menu,
+.site-navigation {
+    list-style: none;   
+}
+.menu a,
+.site-navigation a {
+    color:  #ffffff;
+}
+.menu a:hover,
+.menu a:focus,
+.site-navigation a:hover,
+.site-navigation a:focus {
+    background-color: #242424;
+}
+.slider-switch {
+    list-style: none;
+}
+.slider-title {
+    font-size: 60px;
+    line-height: 65px;
+    text-align: center;
+}
+.slider-img {
+    width: 372px;
+    height: 584px;
+    margin:auto;
+    position: center;
+}
+.slider-decoration {
+    font-size: 32px;
+  line-height: 44px;
+background-image: linear-gradient(#f26843,#e84e37);
+}
+.slider-button {
+/*Как задать кнопки */
+}
+.slider-decoration {
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    position: center;
+    color:#ffffff;
+
+}
+.background-pink {
+    color:#ffffff;
+    background-color: #8e1a2c;
+    background-image: url("img/background2.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+    border-radius:50px;
+    
+}
+
+
+.background-pink h2,
+.background-brown h2 {}
+  font-size: 35px;
+  line-height: 47px;
+}
+.background-pink p,
+.background-brown p {
+    font-size: 18px;
+  line-height: 22px;
+}
+.background-decoration {
+    font-size: 18x;
+  line-height: 24px;
+  background-image: linear-gradient(#f26843,#e84e37);
+  position: right;
+}
+
+.background-brown {
+    color:#ffffff;
+    background-color: #5e3421;
+    background-image: url("img/backgroundshoko.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+    border-radius:50px;
+    
+}
+
+.ice .img {
+ border-radius:50%;
+}
+span .ice-price {
+    color: #ffffff;
+    font-size: 35px;
+  line-height: 45px;
+}
+
+span .ice-kg {
+    color: #ffffff;
+    font-size: 18px;
+  line-height: 45px;
+}
+
+.kind-of-icecream a:hover,
+.kind-of-icecream a:focus {
+    background-color: #242424;
+}
+
+.information-prouduct {
+    color: #323232;
+    background-color: #f0e7ce;
+    background-image: url("img/layer.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+    border-radius:50px;
+}
+
+.information-prouduct h3 {
+    font-size: 24px;
+  line-height: 30px;
+}
+
+.information-description li {
+    font-size: 16px;
+  line-height: 22px;
+}
+
+.recipe {
+    color: #353535;
+    background-color: #ffffff;
+    background-image: url("img/background.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+    border-radius:50px;
+}
+.recipe h2 {
+    font-size: 16px;
+  line-height: 22px;
+}
+.recipe h3 {
+  font-size: 24px;
+  line-height: 30px;
+
+}
+.recipe a:hover,
+.recipe a:focus {
+    background-color: #242424;
+}
+.subscription {
+    color: #5a5a5a;
+    background-color: #f8f7f4;
+    background-image: url("svg-gllacy/bg-post.svg");
+    background-position: 0 0;
+    background-repeat: repeat;
+    border-radius:50px;
+}
+.subscription p {
+    font-size: 16px;
+  line-height: 22px;
+}
+
+.adress {
+     color: #323232;
+    background-color: #fefefe;
+    border-radius:50px;
+}
+.footer {
+     color: #ffffff;
+    background-color: #849d8f;
+    
+}
+.footer a:hover,
+.footer a:focus {
+    background-color: #242424;
+}
+
+.information ul {
+    font-size: 13px;
+  line-height: 18px;
+}
+.logohtml p {
+    font-size: 12px;
+  line-height: 18px;
+}
+.site-navigation1 form {
+ color: #323232;
+    background-color: #fefefe;
+    border-radius:50px;
+}
+.site-navigation2 form {
+    color: #323232;
+    background-color: #fefefe;
+    border-radius:50px;
+}
+.site-navigation2 a {
+        font-size: 13px;
+  line-height: 16px;
+}
+.site-navigation2 a:hover,
+.site-navigation1 a:focus {
+    background-color: #242424;
+}
+
+.adress form {
+     color: #323232;
+    background-color: #fefefe;
+    border-radius:50px;
+}
+.adress-form label {
+    font-size: 24px;
+  line-height: 28px;
+}
