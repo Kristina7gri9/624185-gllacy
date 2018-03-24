@@ -14,12 +14,42 @@ body {
 a {
   text-decoration: none;
 }
+.page-header {
+    margin-bottom: 84px;
+    min-height: 74px;
+}
+
 .page-menu {
-    font-size: 16px;
+    display: flex;
+     font-size: 16px;
   line-height: 20px;
   color: #ffffff;
-
+  text-transform: none;
   background-color: #849d8f;
+  width: 860px;
+    min-height: 74px; 
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+
+.page-logogllacy {
+    width: 160px;
+     height: 65px;
+
+}
+.menu {
+    width: 390px;
+    margin: 0;
+    padding: 0;
+    min-height: 74px;
+}
+.site-navigation {
+    width: 321px;
+    margin: 0;
+    padding: 0;
+    min-height: 74px;
 }
 .menu a {
     text-decoration: underline;
@@ -59,9 +89,18 @@ a {
 .site-enter a {
     color:  #ffffff;
 }
+.site-enter img {
+    color: #f8f7f4;
+
+}
+
 .site-enter a:hover,
 .site-enter a:focus {
     background-color: #68746d;
+    color: #353535;
+    background-color: #f8f7f4;
+    border: 1px solid #f8f7f4;
+    border-radius: 10px;
 }
 .site-password a {
     font-size: 13px;
@@ -85,8 +124,18 @@ a {
 .menu a:focus,
 .site-navigation3 a:hover,
 .site-navigation3 a:focus {
-    background-color: #68746d;
+    color: #353535;
+    background-color: #f8f7f4;
+    border: 1px solid #f8f7f4;
+    border-radius: 10px;
 }
+.slider {
+    position: relative;
+    padding-top: 321px;
+    text-align: center;
+  color: #ffffff;
+}
+
 .slider-switch {
     list-style: none;
 }
@@ -99,9 +148,11 @@ a {
 .slider-img {
     width: 372px;
     height: 584px;
-    margin:auto;
+    margin-top: 80px;
+    margin-left: 450px;
 }
-.slider-decoration {
+.slider-decoration a {
+    display: inline;
     font-size: 32px;
   line-height: 44px;
 background-image: linear-gradient(#f26843,#e84e37);
@@ -109,15 +160,26 @@ height: 100px;
 width: 283;
 border-radius: 50px;
 text-align: center;
+
 }
-.slider-button {
-/*Как задать кнопки */
+.site-button {
+    display: inline-block;
+font: inherit;
+text-align: center;
+font-size: 18px;
+line-height: 24px;
+color: #ffffff;
+border:none;
+border-radius: 50px;
+padding: 10px 24px;
+box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);
+background-image: linear-gradient(#f26843,#e84e37);
+cursor: pointer;
 }
 .slider-decoration {
     font-size: 32px;
     line-height: 42px;
     text-align: center;
-    position: center;
     color:#ffffff;
 
 }
@@ -126,10 +188,11 @@ text-align: center;
     height: 230px;
     color:#ffffff;
     background-color: #8e1a2c;
-    background-image: url("img/background2.jpg");
+    background-image: url("../img/background2.jpg");
     background-position: 0 0;
     background-repeat: repeat;
     border-radius:10px;
+    margin-left: 20px;
     
 }
 
@@ -149,6 +212,7 @@ text-align: center;
   line-height: 24px;
   background-image: linear-gradient(#f26843,#e84e37);
   position: right;
+  
 }
 
 .background-brown {
@@ -156,11 +220,11 @@ text-align: center;
     height: 230px;
     color:#ffffff;
     background-color: #5e3421;
-    background-image: url("img/backgroundshoko.jpg");
+    background-image: url("../img/backgroundshoko.jpg");
     background-position: 0 0;
     background-repeat: repeat;
     border-radius:10px;
-    
+    margin-left: 20px;
 }
 .background-brown a {
     font-size: 16px;
@@ -227,7 +291,7 @@ text-align: center;
 .information-prouduct {
     color: #323232;
     background-color: #f0e7ce;
-    background-image: url("img/layer.jpg");
+    background-image: url("../img/layer.jpg");
     background-position: 0 0;
     background-repeat: repeat;
     border-radius:50px;
@@ -249,7 +313,7 @@ text-align: center;
     height: 230px;
     color: #353535;
     background-color: #ffffff;
-    background-image: url("img/background.jpg");
+    background-image: url("../img/background.jpg");
     background-position: 0 0;
     background-repeat: repeat;
     border-radius:10px;
@@ -282,7 +346,7 @@ text-align: center;
     height: 230px;
     color: #5a5a5a;
     background-color: #f8f7f4;
-    background-image: url("svg-gllacy/bg-post.svg");
+    background-image: url("../svg-gllacy/bg-post.svg");
     background-position: 0 0;
     background-repeat: repeat;
     border-radius:10px;
@@ -371,5 +435,23 @@ text-align: center;
 }
 .logohtml img {
     widows: 108px;
-    height: 48;
+    height: 48px;
+}
+input {
+    font: inherit;
+    border: 1px solid #b2b2b2;
+    border-radius: 3px;
+    color: #818181;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+}
+textarea {
+    font: inherit;
+    border: 1px solid #b2b2b2;
+    border-radius: 3px;
+    color: #818181;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
 }

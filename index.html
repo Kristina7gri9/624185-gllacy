@@ -6,15 +6,17 @@
   <title>HTML Academy: Глейси</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
-  <link href="css/normalise.css" rel="stylesheet">
+  <link href="css/normolise.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
   <header class="page-header">
     <nav class="page-menu">
+    
+        <div class="container">
       <a class="page-logogllacy">
-        <img src="svg-gllacy/logo.svg" alt="Логотип Глейси">
+        <img src="svg-gllacy/logo.svg" width="160" height="65" alt="Логотип Глейси">
       </a>
       <ul class="menu">
         <li>
@@ -62,7 +64,7 @@
           <form action="/echo" method="post">
             <input type="email" placeholder="Электронная почта" required>
             <input type="password" placeholder="Пароль" required>
-            <button class="slider-decoration enter">Войти</button>
+            <button class="site-button" tabindex="0">Войти</button>
            <div class="site-password"> <a  href="#">Забыли пароль?</a>
             <a href="#">Новая регистрация</a></div>
           </form>
@@ -75,24 +77,26 @@
         </li>
 
       </ul>
-      <p class: "page-time">с 10 до 20, ежедневно</p>
-      <p class: "page-number"> 8 812 450-25-25</p>
-      
+     </div>
     </nav>
   </header>
   <main class="container">
+    <div class="data"> <p class="page-time">с 10 до 20, ежедневно</p>
+      <p class="page-number"> 8 812 450-25-25</p></div>
+      
     <section class="slider">
       <h2 class="visually-hidden">Разнообразие мороженого</h2>
 
 
 
-      <h3 class="slider-title">Крем-брюле и пломбир с малиновым джемом </h3>
+      <h3 class="slider-title">Крем-брюле и пломбир<br> с малиновым джемом </h3>
       <div class="slider-img">
         <img src="img/twoice1.png" alt="Мороженко 1">
         <img src="img/twoice2.png" alt="Мороженко 2">
         <img src="img/twoice3.png" alt="Мороженко 3">
       </div>
-      <a class="slider-decoration"> Давайте оба!</a>
+      <div  class="slider-decoration">
+      <a> Давайте оба!</a></div>
       <ul class="slider-switch">
         <li class="slider-radio">
           <button class="slider-button">Первый слайд</button>
@@ -109,14 +113,14 @@
 
       <h2> Малинка даром!</h2>
       <p>При покупке 2 кг любого фруктового мороженого,добавим в ваш заказ банку малиного варенья бесплатно.</p>
-      <a class="background-decoration" href="#sweet">Хочу варенье!</a>
+      <a class="site-button" href="#sweet">Хочу варенье!</a>
      
     </article>
     <article class="background-brown">
 
       <h2> Шоколадки даром!</h2>
       <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно</p>
-      <a class="background-decoration" href="#chock">Хочу шокаладки!</a>
+      <a class="site-button" href="#chock">Хочу шокаладки!</a>
      
     </article>
     <section class="kind-of-icecream">
@@ -194,13 +198,13 @@
       <form action="#.ru" method="POST">
         <input type="text" name="Email" placeholder="Электронная почта">
         <label class="subscription-label">
-          <button>Отправить</button>
+          <button class="site-button" tabindex="0">Отправить</button>
         </label>
       </form>
       
     </article></div>
     <div class="map">
-      <img src="img/group.png" width="780" height="560" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+      <img src="img/group.png" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
 
     </div>
     <article class="adress">
@@ -211,13 +215,13 @@
      <p class="bold"> 8 812 450-25-25</p>
       <br> <p class="adress-time">(с 10 до 20 ежедневно)</p>
       <form action="#.ru" method="POST">
-        <button class="adress-decoration">Форма обратной связи</button>
+        <button class="site-button" tabindex="0">Форма обратной связи</button>
         <div class="adress-form">
           <label class="adress-label">Мы обязательно вам ответим!</label>
           <input type="text" placeholder="Как вас зовут?">
           <input type="email" placeholder="Ваша почта для ответа?">
           <textarea placeholder="Напишите что-нибудь"></textarea>
-          <button class="slider-decoration">Отправить</button>
+          <button class="site-button" tabindex="0">Отправить</button>
         </div>
       </form>
 
@@ -266,7 +270,8 @@
     </section>
     <div class="logohtml">
       <h2 class="visually-hidden">Логотип HTML</h2>
-      <img src="svg-gllacy/logo-htmlacademy.svg" alt="Логотип HTML">
+      <img src="svg-gllacy/logo-htmlacademy.svg" width:"108"
+      height:"48" alt="Логотип HTML" > 
       <p>Сделано в HTML Academy © 2017</p>
     </div>
 
