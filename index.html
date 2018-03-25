@@ -11,17 +11,16 @@
 </head>
 
 <body>
+  <div class="container">
   <header class="page-header">
-    <nav class="page-menu">
-    
-        <div class="container">
-      <a class="page-logogllacy">
+      <nav class="page-menu">
+         <a class="page-logogllacy">
         <img src="svg-gllacy/logo.svg" width="160" height="65" alt="Логотип Глейси">
       </a>
       <ul class="menu">
         <li>
           <a href="#catalog">Каталог</a>
-          <div class="hidden">
+         <!-- <div class="hidden">
             <ul class="menu-list">
               <li class="something-new" tabindex="0">Новинки</li>
               <li tabindex="0">
@@ -37,7 +36,7 @@
                 <a href="#">Мелорин</a>
               </li>
             </ul>
-          </div>
+          </div>-->
         </li>
         <li>
           <a href="#delivery">Доставка и оплата</a>
@@ -49,54 +48,62 @@
       </ul>
       <ul class="site-navigation">
         <li class="site-navigation1">
-          <div class="site-search" tabindex="0">
-            <img src="svg-gllacy/loupe.svg" alt="поиск">
+         <div class="site-search" tabindex="0">
+           <!-- <img src="svg-gllacy/loupe.svg" alt="поиск">-->
+            <a href="#" name="search">Поиск</a>
           </div>
-          <form action="/echo" method="post">
+          <!-- <form action="/echo" method="post">
             <input type="search" placeholder="Что ищем?">
-          </form>
+          </form>-->
         </li>
         <li class="site-navigation2">
           <div class="site-enter">
-            <img src="svg-gllacy/entrance.svg" alt="Вход">
+          
             <a href="#enter">Вход</a>
           </div>
-          <form action="/echo" method="post">
+          <!--<form action="/echo" method="post">
             <input type="email" placeholder="Электронная почта" required>
             <input type="password" placeholder="Пароль" required>
             <button class="site-button" tabindex="0">Войти</button>
-           <div class="site-password"> <a  href="#">Забыли пароль?</a>
-            <a href="#">Новая регистрация</a></div>
-          </form>
+            <div class="site-password">
+              <a href="#">Забыли пароль?</a>
+              <a href="#">Новая регистрация</a>
+            </div>
+          </form>-->
         </li>
         <li class="site-navigation3">
           <div class="site-basket">
-            <img src="svg-gllacy/basket.svg" alt="Корзина">
+          
             <a href="#basket">Пусто</a>
           </div>
         </li>
 
       </ul>
-     </div>
+<div class="data">
+      <p class="page-time">с 10 до 20, ежедневно</p>
+      <p class="page-number"> 8 812 450-25-25</p>
+    </div>
     </nav>
   </header>
-  <main class="container">
-    <div class="data"> <p class="page-time">с 10 до 20, ежедневно</p>
-      <p class="page-number"> 8 812 450-25-25</p></div>
-      
+
+  <main class="main-section">
+    
+
     <section class="slider">
       <h2 class="visually-hidden">Разнообразие мороженого</h2>
 
 
 
-      <h3 class="slider-title">Крем-брюле и пломбир<br> с малиновым джемом </h3>
+      <h3 class="slider-title">Крем-брюле и пломбир
+        <br> с малиновым джемом </h3>
       <div class="slider-img">
         <img src="img/twoice1.png" alt="Мороженко 1">
-        <img src="img/twoice2.png" alt="Мороженко 2">
-        <img src="img/twoice3.png" alt="Мороженко 3">
+       <!-- <img src="img/twoice2.png" alt="Мороженко 2">
+        <img src="img/twoice3.png" alt="Мороженко 3">-->
       </div>
-      <div  class="slider-decoration">
-      <a> Давайте оба!</a></div>
+      <div class="slider-decoration">
+        <a> Давайте оба!</a>
+      </div>
       <ul class="slider-switch">
         <li class="slider-radio">
           <button class="slider-button">Первый слайд</button>
@@ -109,20 +116,20 @@
         </li>
       </ul>
     </section>
+    <div class="items">
     <article class="background-pink">
-
       <h2> Малинка даром!</h2>
       <p>При покупке 2 кг любого фруктового мороженого,добавим в ваш заказ банку малиного варенья бесплатно.</p>
       <a class="site-button" href="#sweet">Хочу варенье!</a>
-     
+
     </article>
     <article class="background-brown">
 
       <h2> Шоколадки даром!</h2>
       <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно</p>
       <a class="site-button" href="#chock">Хочу шокаладки!</a>
-     
-    </article>
+
+    </article></div>
     <section class="kind-of-icecream">
       <h2 class="visually-hidden">Виды мороженого</h2>
       <ul class="ice">
@@ -164,7 +171,7 @@
       <h2 class="visually-hidden">Информация о продукте</h2>
 
       <h3> Магазин Глейси- это онлайн- и- офлайн магазин по продаже мороженого собственного производства на развес</h3>
-      
+
       <ul class="information-description">
         <li>
           <img src="svg-gllacy/ice-cream.svg" alt="Мороженое">Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных
@@ -187,22 +194,24 @@
       <a href="#table">
         <h3>10 способов сервировки фруктовых щербетов к столу</h3>
       </a>
-     
+
     </section>
 
-   <div class="subscription"> <article class="subscription1">
-      <h2 class="visually-hidden">Подписка</h2>
+    <div class="subscription">
+      <article class="subscription1">
+        <h2 class="visually-hidden">Подписка</h2>
 
-      <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не
-        спамить и не слать всякой ненужной ерунды. Честно =) </p>
-      <form action="#.ru" method="POST">
-        <input type="text" name="Email" placeholder="Электронная почта">
-        <label class="subscription-label">
-          <button class="site-button" tabindex="0">Отправить</button>
-        </label>
-      </form>
-      
-    </article></div>
+        <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем
+          не спамить и не слать всякой ненужной ерунды. Честно =) </p>
+        <form action="#.ru" method="POST">
+          <input type="text" name="Email" placeholder="Электронная почта">
+          <label class="subscription-label">
+            <button class="site-button" tabindex="0">Отправить</button>
+          </label>
+        </form>
+
+      </article>
+    </div>
     <div class="map">
       <img src="img/group.png" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
 
@@ -210,10 +219,11 @@
     <article class="adress">
       <h2>Адрес главного офиса и офлайн-магазина:</h2>
       <br>
-   <p class="bold"> Ул.Большая Конюшенная 19/8, Санкт-Петербург</p>
+      <p class="bold"> Ул.Большая Конюшенная 19/8, Санкт-Петербург</p>
       <h2>Для заказов по телефону:</h2>
-     <p class="bold"> 8 812 450-25-25</p>
-      <br> <p class="adress-time">(с 10 до 20 ежедневно)</p>
+      <p class="bold"> 8 812 450-25-25</p>
+      <br>
+      <p class="adress-time">(с 10 до 20 ежедневно)</p>
       <form action="#.ru" method="POST">
         <button class="site-button" tabindex="0">Форма обратной связи</button>
         <div class="adress-form">
@@ -229,7 +239,7 @@
 
   </main>
   <footer class="footer">
-    <div >
+    <div>
       <ul class="footer-social">
         <li>
           <img src="svg-gllacy/twitter.svg" alt="Твитер">
@@ -270,8 +280,7 @@
     </section>
     <div class="logohtml">
       <h2 class="visually-hidden">Логотип HTML</h2>
-      <img src="svg-gllacy/logo-htmlacademy.svg" width:"108"
-      height:"48" alt="Логотип HTML" > 
+      <img src="svg-gllacy/logo-htmlacademy.svg" width: "108" height: "48" alt="Логотип HTML">
       <p>Сделано в HTML Academy © 2017</p>
     </div>
 
@@ -285,5 +294,6 @@
 
 
 </body>
+</div>
 
 </html>
