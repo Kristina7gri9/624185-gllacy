@@ -568,12 +568,12 @@ cursor: pointer;
 }
 .block2 img {
     position: absolute;
-    left: 440px;
+    left: 460px;
     top:104px;
 }
 .information-img2 img  {
     position: absolute;
-    left: 440px;
+    left: 460px;
     top: 226px;
 }
 .information-prouduct {
@@ -613,7 +613,7 @@ cursor: pointer;
     margin-top: 20px;
 }
 .block1  {
-   margin-right: 100px;
+   margin-right: 80px;
    margin-left: 20px;
 }
 .block2 {
