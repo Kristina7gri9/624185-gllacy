@@ -64,7 +64,7 @@ flex-wrap: wrap;
 }
 .menu {
 
-
+position: relative;
 list-style: none;
 
   font-size: 16px;
@@ -84,6 +84,43 @@ list-style: none;
     
     margin-top: 20px;
     vertical-align: middle;
+}
+.menu .menu-list a {
+     display: block;
+    color: #323232;
+padding: 10px 20px;
+   
+}
+
+.menu .menu-list {
+   display: none;
+    position: absolute;
+    
+    padding: 0;
+    left: -10px;
+   
+    margin-top: 15px;
+    z-index: 20;
+    background-color: #f8f7f4;
+   border-radius: 10px;
+}
+.menu-list li {
+     width: 143px;
+     
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu .menu-list a:hover,
+.menu .menu-list a:active,
+.menu .menu-list a:focus {
+    background-color: #fbded8;
+    border: none;
+    border-radius: 0;
+}
+.menu > li:hover  .menu-list {
+    display: block;
 }
 .page-inf {
     margin: 0;
@@ -223,7 +260,26 @@ background-image: url("../svg-gllacy/basket.svg");
      color: #ffffff;
      background-color: rgba(255, 255,255, 0.2);
 }
-
+.site-navigation {
+    position: relative;
+}
+.what-search {
+    display: none;
+    position: absolute;
+    padding: 20px 15px;
+    left: -300px;
+    top: 25px;
+    background-color: #f8f7f4;
+    border-radius: 10px;
+}
+.what-search input {
+    padding: 10px;
+    width: 310px;
+    border: 1px solid #b2b2b2;
+}
+.page-inf > li:hover .what-search {
+    display: block;
+}
 .menu a {
     color:  #ffffff;
 }
@@ -245,7 +301,7 @@ fill: #323232;
 .site-basket:active:before {
     fill: #323232;
 }
-.menu a:hover,
+.menu  a:hover,
 .menu a:focus,
 .site-navigation a:hover,
 .site-navigation a:focus {
@@ -568,17 +624,17 @@ cursor: pointer;
 }
 .block2 img {
     position: absolute;
-    left: 460px;
+    left: 440px;
     top:104px;
 }
 .information-img2 img  {
     position: absolute;
-    left: 460px;
+    left: 440px;
     top: 226px;
 }
 .information-prouduct {
     position: relative;
-    width: 860px;
+    
     color: #323232;
     background-color: #f0e7ce;
     background-image: url("../img/layer.jpg");
@@ -613,16 +669,23 @@ cursor: pointer;
     margin-top: 20px;
 }
 .block1  {
-   margin-right: 80px;
+   margin-right: 100px;
    margin-left: 20px;
 }
 .block2 {
     margin-right: 40px;
 }
 
+
+.recipe-subscription {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
 .recipe {
     padding: 20px;;
-    width: 400px;
+    width: 380px;
     height: 180px;
     color: #353535;
     background-color: #ffffff;
@@ -635,11 +698,6 @@ cursor: pointer;
    margin-bottom: 40px;
     border-radius:20px;
     text-transform: none;
-}
-.recipe-subscription {
-    display: flex;
-    justify-content: space-between;
-   
 }
 .recipe h2 {
     font-size: 16px;
@@ -657,31 +715,20 @@ cursor: pointer;
     background-color: #68746d;
 }
 
-.subscription {
-   margin: 0;
-    border-radius: 10px;
-    width: 400px;
-    height: 210px;
-    text-transform: none;
-    font-weight: normal;
-
-}
 .subscription1 {
     padding: 20px;
-    width: 420px;
+    width: 380px;
     height: 180px;
     color: #5a5a5a;
     background-color: #f8f7f4;
-    background: url("../img/fhone.png") no-repeat;
-    background-size: cover;
-   
-
-     
-   
-   
-    background-repeat: no-repeat;
+    background: url("../svg-gllacy/bg-post.svg") no-repeat;
+      background-repeat: no-repeat;
     background-position: 0 0;
+     margin: 0;
+    
    
+    text-transform: none;
+    font-weight: normal;
     border-radius: 20px;
 }
 .subscription1 p {
@@ -698,6 +745,7 @@ cursor: pointer;
 }
 .map {
     position: relative;
+    margin-bottom: 25px;
 }
 
 .adress {
@@ -743,21 +791,44 @@ cursor: pointer;
   line-height: 28px;
 }
 .footer {
+    
     display: flex;
      color: #ffffff;
     background-color: #849d8f;
     justify-content: space-between;
     
 }
+.footer-social {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 40px;
+}
 .footer-social li {
     display: inline-block;
-    padding-top: 10px;
+   
+   
+    
 }
+.footer-social img {
+    border: 10px solid rgba(90 90 90 0.5);
+    border-radius: 50%;
+}
+
 .information-magazin li {
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 30px;
+   
     text-decoration: underline;
     
+}
+.information img {
+    position: absolute;
+    left: 450px;
+    
+}
+.information-part {
+    margin-bottom: 5px;
 }
 .information-magazin {
     margin: 0;
@@ -771,7 +842,11 @@ cursor: pointer;
     font-size: 13px;
   line-height: 18px;
 }
+.logohtml img {
+    margin-top: -10px;
+}
 .logohtml p {
+    margin-top: -5px;
     font-size: 12px;
   line-height: 18px;
 }
