@@ -10,80 +10,125 @@
 </head>
 
 <body>
-  <header class="page-header">
-    <nav class="page-menu">
-      <a class="page-logogllacy">
-        <img src="svg-gllacy/logo.svg" alt="Логотип Глейси">
-      </a>
-      <ul class="menu">
-        <li>
-          <a href="#catalog">Каталог</a>
-        </li>
-        <li>
-          <a href="#delivery">Доставка и оплата</a>
-        </li>
-        <li>
-          <a href="#company">О компании</a>
-        </li>
-
-      </ul>
-      <ul class="site-navigation">
-        <li>
-          <img src="svg-gllacy/loupe.svg" alt="поиск">
-        </li>
-        <li>
-          <img src="svg-gllacy/entrance.svg" alt="Вход">
-          <a href="#enter">Вход</a>
-        </li>
-        <li>
-          <img src="svg-gllacy/basket-red.svg" alt="Корзина">
-          <a href="#basket">2 товара</a>
-          <form action="/echo" method="post">
+    <div class="container">
+        <header class="page-header">
+            <nav class="page-menu">
+               <a class="page-logogllacy">
+              <img src="svg-gllacy/logo.svg" width="160" height="65" alt="Логотип Глейси">
+            </a>
+            <ul class="menu">
+              <li class="menu-information">
+                <a href="#catalog">Каталог</a>
+                <div class="hidden">
+                  <ul class="menu-list">
+                    <li class="something-new" tabindex="0">
+                      <a href="#" >Новинки</a></li>
+                    <li tabindex="0">
+                      <a href="#">Сливочное</a>
+                    </li>
+                    <li class="scrubbings" tabindex="0">
+                      <a href="#">Щербеты</a>
+                    </li>
+                    <li tabindex="0">
+                      <a href="#">Фруктовый лед</a>
+                    </li>
+                    <li tabindex="0">
+                      <a href="#">Мелорин</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-information">
+                <a href="#delivery">Доставка и оплата</a>
+              </li>
+              <li class="menu-information">
+                <a href="#company">О компании</a>
+              </li>
+      
+            </ul>
+            <ul class="page-inf page-inf-1">
+              <li class="site-navigation">
+               <div class="site-search" tabindex="0">
+                 
+                  <a href="#" name="search">Поиск</a>
+                </div>
+              <div class="what-search" > <form action="/echo" method="post">
+                  <input type="search" placeholder="Что ищем?">
+                </form></div>
+              </li>
+              <li class="site-navigation">
+                <div class="site-enter">
+                
+                  <a href="#enter">Вход</a>
+                </div>
+                <div class="enter-form"><form action="/echo" method="post">
+                  <input type="email" placeholder="Электронная почта" required>
+                  <input type="password" placeholder="Пароль" required>
+                 <div class="form-flex-button"><button class="site-button" tabindex="0">Войти</button>
+                  <div class="site-password">
+                    <a href="#">Забыли пароль?</a>
+                    <a href="#">Новая регистрация</a>
+                  </div></div> 
+                </form></div>
+              </li>
+              <li class="site-navigation">
+                <div class="site-basket site-basket-1">
+                 <a href="#basket">2 товара</a>
+      <div class="basket-order basket-order-1">
+        <form action="/echo" method="post">
           <table>
             <tr>
-              <td>Пломбир с апельсиновым джемом</td>
-              <td>1,5 кг х 200 руб.</td>
-              <td>300 руб.</td>
+              <img  class="ice-radius ice-1" src="img/ice-1.jpg" alt="1 вид">
+              <td class="table-size">Пломбир с апельсиновым джемом</td>
+              <td class="table-size-1">1,5 кг х <span class="price-kg">200 руб.</span></td>
+              <td class="table-size-2">300 руб.</td>
             </tr>
             <tr>
-              <td>Клубничный пломбир с присыпкой 
+              <img class="ice-radius ice-3" src="img/ice-3.jpg" alt="3 вид">
+              <td class="table-size">Клубничный пломбир с присыпкой 
                 из белого шоколада</td>
-                <td>1,5 кг х 300 руб.</td>
-                <td>300 руб.</td></tr>
-                <tr>
-                  <td colspan="3">Итого 750 руб.</td>
-                </tr>
+                <td class="table-size-1">1,5 кг х <span class="price-kg">300 руб.</span></td>
+                <td class="table-size-2">  300 руб.</td></tr>
+              
             
           </table>
-          <button class="slider-decoration">Оформить заказ</button>
-          </form>
+        <div class="basket-flex"> <p class="basket-price"> Итого: 750 руб.</p>
+          <button class="site-button">Оформить заказ</button>
+          </form></div> </div> 
 
         </li>
-
-      </ul>
-      <p>8 812 450-25-25
-        <br> (с 10 до 20 ежедневно)</p>
-    </nav>
-  </header>
+                
+                
+          
+      
+            </ul>
+      
+          </nav>
+          <div class="data">
+            <p class="page-time">с 10 до 20, ежедневно</p>
+            <p class="page-number"> 8 812 450-25-25</p>
+          </div>
+        </header>
+      
   <main class="conteiner">
-    <ul class="conteiner-menu">
+   <div class="container-block"> <ul class="conteiner-menu">
       <li>
-        <a href="#home">Главная</a>
+        <a href="#home">Главная » </a>
       </li>
       <li>
-        <a href="#catalog">Каталог</a>
+        <a href="#catalog"> Каталог » </a>
       </li>
       <li>Сливочное</li>
-    </ul>
+    </ul></div>
     <h2 class="caption-1">Сливочное мороженое</h2>
-    <!--Добавить ли заголовок в section(characters)?-->
+    
     <section class="characters">
       <h2 class="visually-hidden">Характеристики</h2>
-      <ul>
+      <ul class="characters-sorting">
         <li>
          
           <form action="#.ru" method="POST">
-            <label>Сортировка:</label>
+            <label>Сортировка:</label><br>
             <input type="text" name="sorting">
             <datalist>
               <option value="popular">по популярности</option>
@@ -102,8 +147,8 @@
         </li>
         <li>
           <form action="#.ru" method="POST">
-            <label>Жирность</label>
-            <ul>
+            <label>Жирность:</label>
+            <ul class="fat-content">
               <li>
                 <input type="checkbox">0%</li>
               <li>
@@ -135,15 +180,16 @@
           </li>
           <li>
           <img src="svg-gllacy/checkbox-off.svg" alt="без галочки" tabindex="0"> джемы
-          </li>
+          </li> 
+          
         </ul>
       
       
-      </form></li></ul>
+      </form></li>
+      <li><button class="site-button-1" tabindex="0">Применить</button></li>
+    </ul>
     </section>
-    <form action="#">
-      <button>Применить</button>
-    </form>
+   
     <section class="kind-of -icecream">
       <h2 class="visually-hidden">Виды мороженого</h2>
       <ul class="ice">
@@ -163,7 +209,7 @@
           <a href="cofe">Сливочно-кофейное с кусочками шоколада</a>
         </li>
         <li>
-          <img class="ice-radius" src="img/3.jpg" alt="3 вид" width="200" height="200"> tabindex="0"
+          <img class="ice-radius" src="img/3.jpg" alt="3 вид" width="200" height="200" tabindex="0"> 
           
           <span class="ice-price">355₽</span>
           <span class="ice-kg">/кг </span>
@@ -269,52 +315,64 @@
 
   </main>
   <footer class="footer">
-    <div class="footer-social">
-      <ul>
-        <li>
-          <img src="svg-gllacy/twitter.svg" alt="Твитер">
-          <a class="social-button" href="twitter">Твитер</a>
-        </li>
-        <li>
-          <img src="svg-gllacy/instagram.svg" alt="Инстаграм">
-          <a class="social-button" href="instagram">Инстаграм</a>
-        </li>
-        <li>
-          <img src="svg-gllacy/fb.svg" alt="Фэйсбук">
-          <a class="social-button" href="facebook">Фэйсбук</a>
-        </li>
-        <li>
-          <img src="svg-gllacy/vk.svg" alt="Вконтакте">
-          <a class="social-button" href="vk">Вконтакте</a>
-        </li>
-      </ul>
-    </div>
-    <section class="information">
-      <h2 class="visually-hidden">Информация о продукте</h2>
-      <img src="svg-gllacy/heart.svg" alt="Сердечко">
-      <ul>
+      <div>
+        <ul class="footer-social">
+          <li>
+            <img src="svg-gllacy/twitter.svg" alt="Твитер">
+            <a class="social-button" href="twitter">Твитер</a>
+          </li>
+          <li>
+            <img src="svg-gllacy/instagram.svg" alt="Инстаграм">
+            <a class="social-button" href="instagram">Инстаграм</a>
+          </li>
+          <li>
+            <img src="svg-gllacy/fb.svg" alt="Фэйсбук">
+            <a class="social-button" href="facebook">Фэйсбук</a>
+          </li>
+          <li>
+            <img src="svg-gllacy/vk.svg" alt="Вконтакте">
+            <a class="social-button" href="vk">Вконтакте</a>
+          </li>
+        </ul>
+      </div>
+      <section class="information">
+        <h2 class="visually-hidden">Информация для покупателей</h2>
+        <img   src="svg-gllacy/heart.svg" alt="Сердечко">
+        <ul class="information-magazin">
+  
+        <div class="part1">  <li class="information-part">
+            <a href="#">Для поставщиков</a>
+          </li>
+          <li>
+            <a href="#">О производстве</a>
+          </li></div>
+         <div class="part2"> <li class="information-part">
+            <a href="#">Наши документы</a>
+          </li>
+          <li>
+            <a href="#">Экологические стандарты</a>
+          </li></div>
+        </ul>
+      </section>
+      <div class="logohtml">
+        <h2 class="visually-hidden">Логотип HTML</h2>
+        <img src="svg-gllacy/logo-htmlacademy.svg" width: "108" height: "48" alt="Логотип HTML">
+        <p>Сделано в HTML Academy © 2017</p>
+      </div>
+  
+  
+  
+  
+  
+    </footer>
+  <section class="basket-order-1">
+      <button class="modal-close" type="button">Закрыть</button>
+     
+    </section>
+   
         
-        <li><a href="#">Для поставщиков</a></li>
-        <li><a href="#">О производстве</a></li>
-        <li><a href="#">Наши документы</a></li>
-        <li><a href="#">Экологические стандарты</a></li>
-      </ul>
-    </section>
-    <section class="logohtml">
-      <h2 class="visually-hidden">Логотип HTML</h2>
-      <img src="svg-gllacy/logo-htmlacademy.svg" alt="Логотип HTML">
-      <p>Сделано в HTML Academy © 2017</p>
-    </section>
-
-
-
-
-
-  </footer>
-
-
-
-
+   
+</div>
 
 </body>
 
