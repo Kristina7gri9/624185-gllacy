@@ -83,12 +83,18 @@
               <div class="site-basket site-basket-1">
                 <a href="#basket">2 товара</a>
                 <div class="basket-order basket-order-1">
+  <section class="product">
+          <button class="modal-close-1" type="button">Удалить</button>
+        </section>
+        <section class="product-1">
+            <button class="modal-close-2" type="button">Удалить</button>
+          </section>
                   <form action="/echo" method="post">
                     <img class="ice-radius ice-1" src="img/ice-1.jpg" alt="1 вид">
                      <img class="ice-radius ice-3" src="img/ice-3.jpg" alt="3 вид">
                     <table>
                       
-                      <tr>
+                      <tr class="product">
                         
                         <td class="table-size">Пломбир с апельсиновым джемом</td>
                         <td class="table-size-1">1,5 кг х
@@ -97,7 +103,7 @@
                         <td class="table-size-2">300 руб.</td>
                       </tr> 
                      
-                      <tr>
+                      <tr class="product-1">
                        
                         <td class="table-size">Клубничный пломбир с присыпкой из белого шоколада</td>
                         <td class="table-size-1">1,5 кг х
@@ -117,6 +123,7 @@
             </li>
           </ul>
         </nav>
+       
         <div class="data">
           <p class="page-time">с 10 до 20, ежедневно</p>
           <p class="page-number"> 8 812 450-25-25</p>
@@ -139,6 +146,7 @@
 
         <section class="characters">
           <h2 class="visually-hidden">Характеристики</h2>
+            <form action="#.ru" method="POST">
           <ul class="characters-sorting">
             <li>Сортировка:
 
@@ -155,7 +163,7 @@
               </ul>
 
             </li>
-            <form action="#.ru" method="POST">
+          
             <li>
              
                 <label> Цена: 100 руб. – 500 руб.</label>
@@ -163,11 +171,11 @@
                 <div class="range-price">
                   <input type="range" min="100" max="500">
                 </div>
-              </form>
+            
 
             </li>
             <li>
-              <form action="#.ru" method="POST">
+             
                 <label>Жирность:</label>
                 <ul class="fat-content">
                   <li>
@@ -179,19 +187,19 @@
                   <li>
                     <input type="checkbox"> выше 30%</li>
                 </ul>
-              </form>
+            
 
 
             </li>
             <li>
-              <form action="#.ru" method="POST">
+             
                 <label>Наполнители:</label>
                 <ul class="sweet">
                  <li class="sweet-shoko">
                     шоколадные
                   </li>
                    <li class="sweet-sugar">
-                    сахарные присыпки</div>
+                    сахарные присыпки
                   </li>
                    <li
                   class="sweet-fruit">
@@ -208,18 +216,18 @@
                 </ul>
 
 
-              </form>
+              
             </li>
             <li>
               <button class="site-button-1" tabindex="0">Применить</button>
             </li>
-          </ul>
+          </ul></form>
         </section>
 
         <section class="kind-of -icecream">
           <h2 class="visually-hidden">Виды мороженого</h2>
           <ul class="ice">
-            <li class="ice-cream">
+            <li class="ice-cream ice-hover-1">
               <img class="ice-radius" src="img/1.jpg" alt="1 вид" tabindex="0" width="200" height="200">
              
               <span class="ice-price1">310₽</span>
@@ -228,7 +236,7 @@
               <a href="#orange">Сливочное с апельсиновым джемом и цитрусовой струшкой</a>
               <button class="site-button" tabindex="0">Быстрый просмотр</button>
             </li>
-            <li class="ice-cream">
+            <li class="ice-cream ice-hover-2">
               <img class="ice-radius" src="img/2.jpg" alt="2 вид" tabindex="0" width="200" height="200">
             
               <span class="ice-price2">380₽</span>
@@ -237,7 +245,7 @@
               <a href="cofe">Сливочно-кофейное с кусочками шоколада</a>
               <button class="site-button" tabindex="0">Быстрый просмотр</button>
             </li>
-            <li class="ice-cream">
+            <li class="ice-cream ice-hover-3">
               <img class="ice-radius" src="img/3.jpg" alt="3 вид" width="200" height="200" tabindex="0">
               
               <span class="ice-price3">355₽</span>
@@ -246,7 +254,7 @@
               <a href="berry">Сливочно-клубничное с присыпкой из белого шоколада</a>
               <button class="site-button" tabindex="0">Быстрый просмотр</button>
             </li>
-            <li class="ice-cream">
+            <li class="ice-cream ice-hover-4">
               <img class="ice-radius" src="img/4.jpg" alt="4 вид" tabindex="0" width="200" height="200">
              
               <span class="ice-price4">415₽</span>
@@ -255,7 +263,7 @@
               <a href="caramel"> Сливочное крем-брюле с карамельной подлтвкой</a>
               <button class="site-button" tabindex="0">Быстрый просмотр</button>
             </li>
-            <li class="ice-cream">
+            <li class="ice-cream ice-hover-5">
               <img class="ice-radius" src="img/5.jpg" alt="5 вид" tabindex="0" width="200" height="200">
               
               <span class="ice-price5">325₽</span>
@@ -264,7 +272,7 @@
               <a href="#re">Сливочное с брусничным джемом</a>
               <button class="site-button" tabindex="0">Быстрый просмотр</button>
             </li>
-            <li class="ice-cream">
+            <li class="ice-cream ice-hover-6">
               <img class="ice-radius" src="img/6.jpg" alt="6 вид" tabindex="0" width="200" height="200">
              
               <span class="ice-price6">410₽</span>
@@ -273,7 +281,7 @@
               <a href="#ty">Сливочно-черничное с цельными ягодами черники </a>
               <button class="site-button" tabindex="0">Быстрый просмотр</button>
             </li>
-            <li class="ice-cream">
+            <li class="ice-cream ice-hover-7">
               <img class="ice-radius" src="img/7.jpg" alt="7 вид" tabindex="0" width="200" height="200">
               
               <span class="ice-price7">375₽</span>
@@ -282,7 +290,7 @@
               <a href="#">Сливочно-лимонное с карамельной присыпкой</a>
               <button class="site-button" tabindex="0">Быстрый просмотр</button>
             </li>
-            <li class="ice-cream">
+            <li class="ice-cream ice-hover-8">
               <img class="ice-radius" src="img/8.jpg" alt="8 вид" tabindex="0" width="200" height="200">
               
               <span class="ice-price8">320₽</span>
@@ -291,7 +299,7 @@
               <a href="#rt">Сливочное с шоколадной стружкой</a>
               <button class="site-button" tabindex="0">Быстрый просмотр</button>
             </li>
-            <li class="ice-cream">
+            <li class="ice-cream ice-hover-9">
               <img class="ice-radius" src="img/9.jpg" alt="9 вид" tabindex="0" width="200" height="200">
              
               <span class="ice-price9">440₽</span>
@@ -300,7 +308,7 @@
               <a href="#">Сливочно-ванильное с кусочками шоколада</a>
               <button class="site-button" tabindex="0">Быстрый просмотр</button>
             </li>
-            <li class="ice-cream">
+            <li class="ice-cream ice-hover-10">
               <img class="ice-radius" src="img/10.jpg" alt="10 вид" tabindex="0" width="200" height="200">
              
               <span class="ice-price10">435₽</span>
@@ -309,7 +317,7 @@
               <a href="#">Сливочноe с ментоловым сиропом</a>
               <button class="site-button" tabindex="0">Быстрый просмотр</button>
             </li>
-            <li class="ice-cream">
+            <li class="ice-cream ice-hover-11">
               <img class="ice-radius" src="img/11.jpg" alt="11 вид" tabindex="0" width="200" height="200">
               
               <span class="ice-price11">355₽</span>
@@ -318,8 +326,8 @@
               <a href="#">Сливочное с кусочками черного шоколада</a>
               <button class="site-button" tabindex="0">Быстрый просмотр</button>
             </li>
-            <li class="ice-cream">
-              <img class="ice-radius" src="img/12.jpg" alt="12 вид" tabindex="0" width="200" height="200">
+            <li class="ice-cream ice-hover-12">
+              <img class="ice-radius" src="img/12.jpg" alt="12 вид" tabindex="0" width='200' height='200'>
              
               <span class="ice-price12">420₽</span>
               <span class="ice-kg12">/кг </span>
@@ -343,7 +351,7 @@
               <a class="next" href="#next">Вперёд</a>
           </div>
         </section>
-<div class="line"></div>
+
 
       </main>
       <footer class="footer">
@@ -372,22 +380,22 @@
           <img src="img/svg-gllacy/heart.svg" alt="Сердечко">
           <ul class="information-magazin">
 
-            <div class="part1">
+           
               <li class="information-part">
                 <a href="#">Для поставщиков</a>
               </li>
               <li>
                 <a href="#">О производстве</a>
               </li>
-            </div>
-            <div class="part2">
+           
+          
               <li class="information-part">
                 <a href="#">Наши документы</a>
               </li>
               <li>
                 <a href="#">Экологические стандарты</a>
               </li>
-            </div>
+            
           </ul>
         </section>
         <div class="logohtml">
@@ -401,15 +409,13 @@
 
 
       </footer>
-      <section class="basket-order-1">
-        <button class="modal-close" type="button">Закрыть</button>
-
-      </section>
+     
+          
 
 
-
-      </div>
     </div>
+      </div>
+    
 
 </body>
 

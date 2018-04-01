@@ -477,17 +477,17 @@ background-image: url("../img/svg-gllacy/basket.svg");
 .site-search:hover::before,
 .site-search:focus::before,
 .site-search:active::before {
-background-image: 
+background-image: url("../img/svg-gllacy/loupe-black.svg");
 }
 .site-enter:hover::before,
 .site-enter:focus::before,
 .site-enter:active::before {
-    background-image: 
+    background-image: url("../img/svg-gllacy/entrance-black.svg");
 }
 .site-basket:hover::before,
 .site-basket:focus::before,
 .site-basket:active:before {
-    background-image: 
+    background-image: url("../img/svg-gllacy/basket-black.svg");
 }
 .menu  a:hover,
 .menu a:focus,
@@ -896,25 +896,29 @@ background-image:
     text-transform: none;
     margin-bottom: 40px;
 }
-.block1 img {
+
+
+
+
+.img-1 img {
     position: absolute;
     left: 20px;
-    top:104px;
+    top: 106px;
 }
-.information-img1 img {
+.img-2 img {
+    position: absolute;
+    left: 450px;
+    top: 106px;
+}
+.img-3 img {
     position: absolute;
     left: 20px;
-    top: 226px;
+    top: 256px;
 }
-.block2 img {
+.img-4 img {
     position: absolute;
-    left: 440px;
-    top:104px;
-}
-.information-img2 img  {
-    position: absolute;
-    left: 440px;
-    top: 226px;
+    left: 450px;
+    top: 256px;
 }
 .information-prouduct {
     position: relative;
@@ -931,7 +935,6 @@ background-image:
     font-weight: normal;
     text-transform: none;
 }
-
 .information-prouduct h3 {
     font-size: 24px;
   line-height: 30px;
@@ -945,19 +948,16 @@ background-image:
 }
 .information-description {
     display: flex;
-   
+    justify-content: space-between;
+    flex-wrap: wrap;
+   padding: 0;
     margin: 0;
 }
 .information-items {
+    width: 345px;
     margin-bottom: 20px;
     margin-top: 20px;
-}
-.block1  {
-   margin-right: 100px;
-   margin-left: 20px;
-}
-.block2 {
-    margin-right: 40px;
+    padding-left: 60px;
 }
 
 
@@ -1012,6 +1012,14 @@ background-image:
     text-transform: none;
     font-weight: normal;
     border-radius: 20px;
+}
+.phone {
+    width: 390px;
+    height: 170px;
+    background-color: #f8f7f4;
+    background-position: 0 10px;
+     margin: 0;
+  
 }
 .subscription1 p {
     font-size: 16px;
@@ -1090,20 +1098,7 @@ background-image:
     border-radius: 20px;
     display: none;
 }
-.modal-close {
-    position: absolute;
-  top: 23px;
-  right: 10px;
-    width: 22px;
-    height: 22px;
-  
-    font-size: 0;
-  
-    background-color: transparent;
-    border: 0;
-  
-    cursor: pointer;
-  }
+
   .adress-form input {
       box-sizing: border-box;
       width: 264px;
@@ -1115,6 +1110,9 @@ background-image:
       padding: 10px;
       height: 120px;
       margin-bottom: 20px;
+  }
+  .adress button:hover .adress-form {
+      display: block;
   }
   .button-flex {
        display: flex;
@@ -1130,42 +1128,88 @@ background-image:
       padding-top: 10px;
       
   }
-  .modal-close::before,
-.modal-close::after {
+  .product {
+      position: relative;
+  }
+  .product-1 {
+      position: relative;
+  }
+  .modal-close-1,
+  .modal-close-2,
+  .modal-close {
+    position: absolute;
+
+  
+    font-size: 0;
+  
+    background-color: transparent;
+    border: 0;
+  
+    cursor: pointer;
+  }
+ 
+.modal-close-2::before,
+.modal-close-2::after {
   content: "";
 
   position: absolute;
-top: 10px;
-left: 2px;
-  width: 19px;
-  height: 3px;
+top: 95px;
+left: -60px;
+  width: 16px;
+  height: 2px;
 
-  background-color: #231f20;
+  background-color: #818181;
 }
-.modal-close::before {
+.modal-close-2::before {
     transform: rotate(45deg);
   }
   
-  .modal-close::after {
+.modal-close-2::after {
+    transform: rotate(-45deg);
+  }
+  
+.modal-close-1::before,
+.modal-close-1::after {
+  content: "";
+
+  position: absolute;
+top: 27px;
+left: -60px;
+  width: 16px;
+  height: 2px;
+
+  background-color: #818181;
+}
+.modal-close-1::before {
+    transform: rotate(45deg);
+  }
+  
+  .modal-close-1::after {
     transform: rotate(-45deg);
   }
 .footer {
-    
     display: flex;
+    justify-content: space-between;
      color: #ffffff;
     background-color: #849d8f;
     justify-content: space-between;
     
 }
 .footer-social {
+    display: flex;
+    justify-content: space-between;
     position: relative;
     margin: 0;
     padding: 0;
     min-height: 40px;
+    width:180px;
 }
-.footer-social li {
+.footer-social a {
     display: inline-block;
-   
+    width:32px;
+     height:32px;
+   border: 3px solid  rgba(255, 255,255, 0.2) ;
+   border-radius: 50%; 
    
     
 }
@@ -1173,13 +1217,15 @@ left: 2px;
     border: 10px solid rgba(90 90 90 0.5);
     border-radius: 50%;
 }
-
+.information-magazin {
+    display: flex;
+    flex-wrap: wrap;
+    width:340px;
+    margin: 0;
+}
 .information-magazin li {
     display: inline-block;
     margin-right: 30px;
-   
-    
-    
 }
 .information-magazin a {
     text-decoration: rgba(255, 255,255, 0.2) underline;
@@ -1195,9 +1241,7 @@ left: 2px;
 .information-part {
     margin-bottom: 5px;
 }
-.information-magazin {
-    margin: 0;
-}
+
 .footer a:hover,
 .footer a:focus {
     background-color: #68746d;
@@ -1326,7 +1370,7 @@ background-image: url("../img/svg-gllacy/basket-red.svg");
     width: 220px;
 }
 .table-size-2 {
-    width: 80px;
+    width: 100px;
 }
 td {
     
@@ -1717,27 +1761,155 @@ padding: 0;
     border-radius: 20px;
 
 }
-.line::after {
-    content: "";
-    width: 860px;
-    height: 5px;
-    color:rgba(255, 255,255, 0.2);;
-}
+
 .ice-cream {
+  
     padding: 10px;
 }
-.ice-cream:hover {
-
+.ice-hover-1::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 230px;
+    height: 362px;
     border-radius: 10px;
     background-color: rgba(255, 255,255, 0.2);
+   
+}
+.ice-hover-2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 215px;
+    width: 230px;
+    height: 362px;
+    border-radius: 10px;
+    background-color: rgba(255, 255,255, 0.2);
+   
+}
+.ice-hover-3::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 670px;
+    width: 230px;
+    height: 362px;
+    border-radius: 10px;
+    background-color: rgba(255, 255,255, 0.2);
+   
+}
+.ice-hover-4::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 450px;
+    width: 230px;
+    height: 362px;
+    border-radius: 10px;
+    background-color: rgba(255, 255,255, 0.2);
+   
+}
+.ice-hover-5::after {
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 230px;
+    height: 362px;
+    border-radius: 10px;
+    background-color: rgba(255, 255,255, 0.2);
+   
+}
+.ice-hover-6::after {
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 230px;
+    height: 362px;
+    border-radius: 10px;
+    background-color: rgba(255, 255,255, 0.2);
+   
+}
+.ice-hover-7::after {
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 230px;
+    height: 362px;
+    border-radius: 10px;
+    background-color: rgba(255, 255,255, 0.2);
+   
+}
+.ice-hover-8::after {
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 230px;
+    height: 362px;
+    border-radius: 10px;
+    background-color: rgba(255, 255,255, 0.2);
+   
+}
+.ice-hover-9::after {
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 230px;
+    height: 362px;
+    border-radius: 10px;
+    background-color: rgba(255, 255,255, 0.2);
+   
+}
+.ice-hover-10::after {
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 230px;
+    height: 362px;
+    border-radius: 10px;
+    background-color: rgba(255, 255,255, 0.2);
+   
+}
+.ice-hover-11::after {
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 230px;
+    height: 362px;
+    border-radius: 10px;
+    background-color: rgba(255, 255,255, 0.2);
+   
+}
+.ice-hover-12::after {
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 230px;
+    height: 362px;
+    border-radius: 10px;
+    background-color: rgba(255, 255,255, 0.2);
+   
 }
 .ice .site-button {
+    
     display: none;
     font-size: 18px;
     line-height: 24px;
     width: 196px;
     padding: 10px;
+    z-index: 30;
+    
 }
 .ice-cream:hover .site-button {
+    
     display: block;
+   
 }
