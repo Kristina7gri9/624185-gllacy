@@ -11,7 +11,14 @@
 </head>
 
 <body>
+   <input class="visually-hidden" type="radio" id="product-1" name="toggle" checked>
+    <input class="visually-hidden" type="radio" id="product-2" name="toggle">
+    <input class="visually-hidden" type="radio" id="product-3" name="toggle">
+  <div class="site-wrapper">
   <div class="container">
+    
+  <main class="main-section">
+   
   <header class="page-header">
       <nav class="page-menu">
          <a class="page-logogllacy">
@@ -88,35 +95,41 @@
     </div>
   </header>
 
-  <main class="main-section">
     
 
     <section class="slider">
       <h2 class="visually-hidden">Разнообразие мороженого</h2>
 
+  <div class="slider-controls">
+            <label for="product-1">Первый</label>
+            <label for="product-2">Второй</label>
+            <label for="product-3">Третий</label>
+          </div>
 
-
-      <h3 class="slider-title">Крем-брюле и пломбир
-        <br> с малиновым джемом </h3>
-      <div class="slider-img">
-        <img src="img/twoice1.png" alt="Мороженко 1">
-       <!-- <img src="img/twoice2.png" alt="Мороженко 2">
-        <img src="img/twoice3.png" alt="Мороженко 3">-->
-      </div>
-      <div class="slider-decoration">
-        <a> Давайте оба!</a>
-      </div>
-     <!-- <ul class="slider-switch">
-        <li class="slider-radio">
-          <button class="slider-button">Первый слайд</button>
+      <ul class="slider-list">
+        <li class="slider-item slide" id="slide1">
+          <h3 class="slide-title">
+            Крем-брюле и пломбир с малиновым джемом
+          </h3>
+          <a class="button" href="#">Давайте оба!</a>
         </li>
-        <li class="slider-radio">
-          <button class="slider-button">Второй слайд</button>
+        <li class="slider-item slide" id="slide2">
+          <h3 class="slide-title">
+            Шоколадный пломбир и лимонный сорбет
+          </h3>
+          <a class="button" href="#">Давайте оба!</a>
         </li>
-        <li class="slider-radio">
-          <button class="slider-button">Третий слайд</button>
+        <li class="slider-item slide" id="slide3">
+          <h3 class="slide-title">
+            Пломбир с помадкой и клубничный щербет
+          </h3>
+          <a class="button" href="#">Давайте оба!</a>
         </li>
-      </ul>-->
+      </ul>
+      
+      
+   
+    
     </section>
     <div class="items">
     <article class="background-pink">
@@ -287,7 +300,7 @@
     <div class="logohtml">
       <h2 class="visually-hidden">Логотип HTML</h2>
       <img src="svg-gllacy/logo-htmlacademy.svg" width: "108" height: "48" alt="Логотип HTML">
-      <p>Сделано в HTML Academy © 2017</p>
+      <p>Сделано в <a href="#">HTML Academy</a> © 2017</p>
     </div>
 
 
@@ -300,7 +313,7 @@
   <button class="modal-close" type="button">Закрыть</button>
 </section>
 
-</div>
+</div></div>
 </body>
 
 
