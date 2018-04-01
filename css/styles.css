@@ -345,7 +345,7 @@ left: 10px;
 
 width: 21px;
 height: 19px;
-background-image: url("../svg-gllacy/loupe.svg");
+background-image: url("..img/svg-gllacy/loupe.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -365,7 +365,7 @@ left: 20px;
 
 width: 21px;
 height: 19px;
-background-image: url("../svg-gllacy/entrance.svg");
+background-image: url("..img/svg-gllacy/entrance.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
   fill: #ffffff;
@@ -378,7 +378,7 @@ background-image: url("../svg-gllacy/entrance.svg");
     left: 20px;
     width: 21px;
 height: 20px;
-background-image: url("../svg-gllacy/basket.svg");
+background-image: url("..img/svg-gllacy/basket.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -711,7 +711,7 @@ fill: #323232;
 }
 .ice-price5 {
     position: absolute;
-    top: 400px;
+    top: 480px;
     left: -5px;
     color: #ffffff;
     font-size: 50px;
@@ -719,7 +719,7 @@ fill: #323232;
 }
 .ice-price6 {
     position: absolute;
-    top: 400px;
+    top: 480px;
     left: 220px;
     color: #ffffff;
     font-size: 50px;
@@ -727,7 +727,7 @@ fill: #323232;
 }
 .ice-price7 {
     position: absolute;
-    top: 400px;
+    top: 480px;
     left: 440px;
     color: #ffffff;
     font-size: 50px;
@@ -735,7 +735,7 @@ fill: #323232;
 }
 .ice-price8 {
     position: absolute;
-    top: 400px;
+    top: 480px;
     left: 660px;
     color: #ffffff;
     font-size: 50px;
@@ -743,7 +743,7 @@ fill: #323232;
 }
 .ice-price9 {
     position: absolute;
-    top: 680px;
+    top: 800px;
     left: -5px;
     color: #ffffff;
     font-size: 50px;
@@ -751,7 +751,7 @@ fill: #323232;
 }
 .ice-price10 {
     position: absolute;
-    top: 680px;
+    top: 800px;
     left: 220px;
     color: #ffffff;
     font-size: 50px;
@@ -759,7 +759,7 @@ fill: #323232;
 }
 .ice-price11 {
     position: absolute;
-    top: 680px;
+    top: 800px;
     left: 440px;
     color: #ffffff;
     font-size: 50px;
@@ -767,7 +767,7 @@ fill: #323232;
 }
 .ice-price12 {
     position: absolute;
-    top: 680px;
+    top: 800px;
     left: 660px;
     color: #ffffff;
     font-size: 50px;
@@ -807,7 +807,7 @@ fill: #323232;
 }
 .ice-kg5 {
     position: absolute;
-    top: 420px;
+    top: 500px;
     left: 115px;
     color: #ffffff;
     font-size: 22px;
@@ -815,7 +815,7 @@ fill: #323232;
 }
 .ice-kg6 {
     position: absolute;
-    top: 420px;
+    top: 500px;
     left: 335px;
     color: #ffffff;
     font-size: 22px;
@@ -823,7 +823,7 @@ fill: #323232;
 }
 .ice-kg7 {
     position: absolute;
-    top: 420px;
+    top: 500px;
     left: 560px;
     color: #ffffff;
     font-size: 22px;
@@ -831,7 +831,7 @@ fill: #323232;
 }
 .ice-kg8 {
     position: absolute;
-    top: 420px;
+    top: 500px;
     left: 780px;
     color: #ffffff;
     font-size: 22px;
@@ -839,7 +839,7 @@ fill: #323232;
 }
 .ice-kg9 {
     position: absolute;
-    top: 700px;
+    top: 820px;
     left: 115px;
     color: #ffffff;
     font-size: 22px;
@@ -847,7 +847,7 @@ fill: #323232;
 }
 .ice-kg10 {
     position: absolute;
-    top: 700px;
+    top: 820px;
     left: 335px;
     color: #ffffff;
     font-size: 22px;
@@ -855,7 +855,7 @@ fill: #323232;
 }
 .ice-kg11 {
     position: absolute;
-    top: 700px;
+    top: 820px;
     left: 560px;
     color: #ffffff;
     font-size: 22px;
@@ -863,7 +863,7 @@ fill: #323232;
 }
 .ice-kg12 {
     position: absolute;
-    top: 700px;
+    top: 820px;
     left: 780px;
     color: #ffffff;
     font-size: 22px;
@@ -973,9 +973,7 @@ fill: #323232;
     height: 180px;
     color: #353535;
     background-color: #ffffff;
-    background-image:
-   
-     url("../img/background.jpg");
+    background-image: url("../img/background.jpg");
     
     background-repeat: no-repeat;
     background-position: 0 0;
@@ -1005,7 +1003,7 @@ fill: #323232;
     height: 180px;
     color: #5a5a5a;
     background-color: #f8f7f4;
-    background: url("../svg-gllacy/bg-post.svg") no-repeat;
+    background: url("..img/svg-gllacy/bg-post.svg") no-repeat;
       background-repeat: no-repeat;
     background-position: 0 0;
      margin: 0;
@@ -1314,7 +1312,7 @@ display: none;
     left: 20px;
     width: 21px;
 height: 20px;
-background-image: url("../svg-gllacy/basket-red.svg");
+background-image: url("..img/svg-gllacy/basket-red.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1545,10 +1543,10 @@ cursor: pointer;
     position: relative;
     list-style: none;
     padding: 0;
-    padding-right: 30px;
+    
 }
 .sorting li {
-    padding-right: 40px;
+    padding-right: 60px;
 }
 .sorting::after {
     content: "";
@@ -1558,12 +1556,47 @@ cursor: pointer;
     
     width: 30px;
     height: 30px;
-    background-image: url("../svg-gllacy/icon-down-dir.svg");
+    background-image: url("..img/svg-gllacy/icon-down-dir.svg");
       background-repeat: no-repeat;
       background-position: 0 0;
 }
 .sorting-choice {
     display: none;
+    position: absolute;
+    list-style: none;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #000000;
+    background-color: #ffffff;
+    left: 1px;
+    top: 50px;
+    width: 240px;
+z-index: 20;
+text-align: left;
+padding: 0;
+}
+.sorting > li:hover,
+.sorting > li:focus,
+.sorting > li:active {
+    color: #000000;
+    background-color: #ffffff;
+}
+.sorting-choice li {
+    padding-bottom: 5px;
+    padding-left: 20px;
+    
+}
+.sorting > li:hover .sorting-choice {
+    display: block;
+}
+.sorting-choice li:nth-child(1) {
+    padding-top: 10px;
+}
+.sorting-choice li:hover,
+.sorting-choice li:focus {
+    color: #ffffff;
+    background-color: #1e90ff;
 }
 .sweet-relative {
     position: relative;
@@ -1576,7 +1609,7 @@ cursor: pointer;
     
     width: 30px;
     height: 30px;
-    background-image: url("../svg-gllacy/checkbox-on.svg");
+    background-image: url("..img/svg-gllacy/checkbox-on.svg");
       background-repeat: no-repeat;
       background-position: 0 0;
 }
@@ -1588,7 +1621,7 @@ cursor: pointer;
     
     width: 26px;
     height: 25px;
-    background-image: url("../svg-gllacy/checkbox-on.svg");
+    background-image: url("..img/svg-gllacy/checkbox-on.svg");
       background-repeat: no-repeat;
       background-position: 0 0;
 }
@@ -1600,7 +1633,7 @@ cursor: pointer;
     
     width: 24px;
     height: 24px;
-    background-image: url("../svg-gllacy/checkbox-off.svg");
+    background-image: url("..img/svg-gllacy/checkbox-off.svg");
       background-repeat: no-repeat;
       background-position: 0 0;
 }
@@ -1612,7 +1645,7 @@ cursor: pointer;
     
     width: 24px;
     height: 24px;
-    background-image: url("../svg-gllacy/checkbox-off.svg");
+    background-image: url("..img/svg-gllacy/checkbox-off.svg");
       background-repeat: no-repeat;
       background-position: 0 0;
 }
@@ -1624,7 +1657,7 @@ cursor: pointer;
     
     width: 24px;
     height: 24px;
-    background-image: url("../svg-gllacy/checkbox-off.svg");
+    background-image: url("..img/svg-gllacy/checkbox-off.svg");
       background-repeat: no-repeat;
       background-position: 0 0;
 }
@@ -1660,7 +1693,7 @@ cursor: pointer;
 .paginator .prev {
     margin-right:0;
     text-indent: -3000px;
-    background-image: url("../svg-gllacy/icon-right-small.svg");
+    background-image: url("..img/svg-gllacy/icon-right-small.svg");
     background-repeat: no-repeat;
     background-position: 5px 3px;
      transform: rotate(180deg);
@@ -1669,7 +1702,7 @@ cursor: pointer;
 .paginator .next {
     margin-left:0;
     text-indent: -8000px;
-    background-image: url("../svg-gllacy/icon-right-small.svg");
+    background-image: url("..img/svg-gllacy/icon-right-small.svg");
     background-position: 7px 3px;
     background-repeat: no-repeat;
    
@@ -1685,4 +1718,22 @@ cursor: pointer;
     width: 860px;
     height: 5px;
     color:rgba(255, 255,255, 0.2);;
+}
+.ice-cream {
+    padding: 10px;
+}
+.ice-cream:hover {
+
+    border-radius: 10px;
+    background-color: rgba(255, 255,255, 0.2);
+}
+.ice .site-button {
+    display: none;
+    font-size: 18px;
+    line-height: 24px;
+    width: 196px;
+    padding: 10px;
+}
+.ice-cream:hover .site-button {
+    display: block;
 }
