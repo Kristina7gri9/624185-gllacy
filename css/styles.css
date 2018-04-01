@@ -345,7 +345,7 @@ left: 10px;
 
 width: 21px;
 height: 19px;
-background-image: url("..img/svg-gllacy/loupe.svg");
+background-image: url("../img/svg-gllacy/loupe.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -365,7 +365,7 @@ left: 20px;
 
 width: 21px;
 height: 19px;
-background-image: url("..img/svg-gllacy/entrance.svg");
+background-image: url("../img/svg-gllacy/entrance.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
   fill: #ffffff;
@@ -378,7 +378,7 @@ background-image: url("..img/svg-gllacy/entrance.svg");
     left: 20px;
     width: 21px;
 height: 20px;
-background-image: url("..img/svg-gllacy/basket.svg");
+background-image: url("../img/svg-gllacy/basket.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -477,17 +477,17 @@ background-image: url("..img/svg-gllacy/basket.svg");
 .site-search:hover::before,
 .site-search:focus::before,
 .site-search:active::before {
-fill: #323232;
+background-image: 
 }
 .site-enter:hover::before,
 .site-enter:focus::before,
 .site-enter:active::before {
-    fill: #323232;
+    background-image: 
 }
 .site-basket:hover::before,
 .site-basket:focus::before,
 .site-basket:active:before {
-    fill: #323232;
+    background-image: 
 }
 .menu  a:hover,
 .menu a:focus,
@@ -1003,7 +1003,7 @@ fill: #323232;
     height: 180px;
     color: #5a5a5a;
     background-color: #f8f7f4;
-    background: url("..img/svg-gllacy/bg-post.svg") no-repeat;
+    background: url("../img/svg-gllacy/bg-post.svg") no-repeat;
       background-repeat: no-repeat;
     background-position: 0 0;
      margin: 0;
@@ -1243,7 +1243,7 @@ left: 2px;
     font-weight: normal;
 }
 .footer-social a {
-    display: none;
+    font-size: 0;
 }
 .information-magazin a {
     color: #f8f7f4;
@@ -1312,7 +1312,7 @@ display: none;
     left: 20px;
     width: 21px;
 height: 20px;
-background-image: url("..img/svg-gllacy/basket-red.svg");
+background-image: url("../img/svg-gllacy/basket-red.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1556,7 +1556,7 @@ cursor: pointer;
     
     width: 30px;
     height: 30px;
-    background-image: url("..img/svg-gllacy/icon-down-dir.svg");
+    background-image: url("../img/svg-gllacy/icon-down-dir.svg");
       background-repeat: no-repeat;
       background-position: 0 0;
 }
@@ -1598,7 +1598,11 @@ padding: 0;
     color: #ffffff;
     background-color: #1e90ff;
 }
-.sweet-relative {
+.sweet-shoko,
+.sweet-fruit,
+.sweet-jam,
+.sweet-sugar,
+.sweet-syrup {
     position: relative;
 }
 .sweet-shoko::before {
@@ -1609,7 +1613,7 @@ padding: 0;
     
     width: 30px;
     height: 30px;
-    background-image: url("..img/svg-gllacy/checkbox-on.svg");
+    background-image: url("../img/svg-gllacy/checkbox-on.svg");
       background-repeat: no-repeat;
       background-position: 0 0;
 }
@@ -1621,7 +1625,7 @@ padding: 0;
     
     width: 26px;
     height: 25px;
-    background-image: url("..img/svg-gllacy/checkbox-on.svg");
+    background-image: url("../img/svg-gllacy/checkbox-on.svg");
       background-repeat: no-repeat;
       background-position: 0 0;
 }
@@ -1633,7 +1637,7 @@ padding: 0;
     
     width: 24px;
     height: 24px;
-    background-image: url("..img/svg-gllacy/checkbox-off.svg");
+    background-image: url("../img/svg-gllacy/checkbox-off.svg");
       background-repeat: no-repeat;
       background-position: 0 0;
 }
@@ -1645,7 +1649,7 @@ padding: 0;
     
     width: 24px;
     height: 24px;
-    background-image: url("..img/svg-gllacy/checkbox-off.svg");
+    background-image: url("../img/svg-gllacy/checkbox-off.svg");
       background-repeat: no-repeat;
       background-position: 0 0;
 }
@@ -1657,7 +1661,7 @@ padding: 0;
     
     width: 24px;
     height: 24px;
-    background-image: url("..img/svg-gllacy/checkbox-off.svg");
+    background-image: url("../img/svg-gllacy/checkbox-off.svg");
       background-repeat: no-repeat;
       background-position: 0 0;
 }
@@ -1693,7 +1697,7 @@ padding: 0;
 .paginator .prev {
     margin-right:0;
     text-indent: -3000px;
-    background-image: url("..img/svg-gllacy/icon-right-small.svg");
+    background-image: url("../img/svg-gllacy/icon-right-small.svg");
     background-repeat: no-repeat;
     background-position: 5px 3px;
      transform: rotate(180deg);
@@ -1702,7 +1706,7 @@ padding: 0;
 .paginator .next {
     margin-left:0;
     text-indent: -8000px;
-    background-image: url("..img/svg-gllacy/icon-right-small.svg");
+    background-image: url("../img/svg-gllacy/icon-right-small.svg");
     background-position: 7px 3px;
     background-repeat: no-repeat;
    
